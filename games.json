@@ -65,7 +65,7 @@
     "cheats": [
       { "id": "god_mode_ignore_hits", "name": "Mod Deus / Ignorar Hits", "hotkey": "F1", "enabled": false, "category": "Jogador", "description": "Ignora todos os acertos e golpes recebidos no Cal Kestis" },
       { "id": "stealth", "name": "Invisibilidade", "hotkey": "F4", "enabled": false, "category": "Jogador", "description": "Inimigos e criaturas ignoram a presença de Cal Kestis" },
-      { "id": "disallow_ai_attack", "name": "Inimigos Não Atacam", "hotkey": "F6", "enabled": false, "category": "Combate", "description": "Impede a inteligência artificial dos inimigos de iniciar ataques" },
+      { "id": "disallow_ai_attack", "name": "Inimigos Não Atacam", "hotkey": "F6", "enabled": false, "category": "Inimigos", "description": "Impede a inteligência artificial dos inimigos de iniciar ataques" },
       { "id": "inf_force", "name": "Força Jedi Infinita", "hotkey": "F2", "enabled": false, "category": "Poderes", "description": "Permite usar habilidades da Força continuamente" },
       { "id": "inf_stims", "name": "Stims / Curas Infinitas", "hotkey": "F3", "enabled": false, "category": "Itens", "description": "Frascos de cura nunca se esgotam" },
       { "id": "set_skill_points", "name": "Pontos de Habilidade", "hotkey": "F5", "enabled": false, "category": "Evolução", "description": "Definir quantidade de pontos de habilidade do Cal Kestis", "type": "stepper", "value": 10, "defaultValue": 10, "min": 0, "max": 99, "step": 1 }
