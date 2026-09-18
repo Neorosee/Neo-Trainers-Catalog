@@ -131,3 +131,24 @@
     ]
   }
 ]
+{
+  "id": "stalker_2",
+  "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+  "executable": "Stalker2-Win64-Shipping.exe",
+  "pipeName": "\\\\.\\pipe\\Stalker2_Trainer",
+  "dllUrl": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-DLLS/main/Stalker2.dll",
+  "cover": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/assets/covers/stalker_2.jpg",
+  "banner": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/assets/banners/stalker_2.jpg",
+  "cheats": [
+    {
+      "id": "inf_health",
+      "name": "Vida Infinita",
+      "command": "inf_health",
+      "category": "Jogador",
+      "type": "toggle",
+      "enabled": false,
+      "hotkey": "F1",
+      "description": "Mantém a vida atual sempre igual ao valor máximo do jogador"
+    }
+  ]
+}
