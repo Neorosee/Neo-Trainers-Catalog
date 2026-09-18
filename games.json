@@ -130,7 +130,7 @@
       }
     ]
   },
-  {
+ {
     "id": "stalker_2",
     "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
     "process_name": "Stalker2-Win64-Shipping.exe",
@@ -139,7 +139,7 @@
     "poster_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop",
     "banner_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop",
     "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
-    "dll_asset_name": "Stalker2.dll",
+    "dll_asset_name": "Stalker2Mod.dll",
     "sha256": "bypass",
     "pipe_name": "\\\\.\\pipe\\Stalker2_Trainer",
     "cheats": [
