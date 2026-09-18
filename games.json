@@ -1,7 +1,7 @@
 [
   {
     "id": "gta_vc",
-    "title": "Teste",
+    "title": "Grand Theft Auto: Vice City",
     "process_name": "gta-vc.exe",
     "version": "1.0.2",
     "cover_url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop",
@@ -129,26 +129,28 @@
         "description": "Kay Vess e Nix não sofrem dano de armas inimigas ou explosões"
       }
     ]
+  },
+  {
+    "id": "stalker_2",
+    "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+    "process_name": "Stalker2-Win64-Shipping.exe",
+    "version": "1.0.0",
+    "cover_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop",
+    "poster_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop",
+    "banner_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop",
+    "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
+    "dll_asset_name": "Stalker2.dll",
+    "sha256": "bypass",
+    "pipe_name": "\\\\.\\pipe\\Stalker2_Trainer",
+    "cheats": [
+      {
+        "id": "inf_health",
+        "name": "Vida Infinita",
+        "hotkey": "F1",
+        "enabled": false,
+        "category": "Jogador",
+        "description": "Mantém a vida atual sempre igual ao valor máximo do jogador"
+      }
+    ]
   }
 ]
-{
-  "id": "stalker_2",
-  "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-  "executable": "Stalker2-Win64-Shipping.exe",
-  "pipeName": "\\\\.\\pipe\\Stalker2_Trainer",
-  "dllUrl": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-DLLS/main/Stalker2.dll",
-  "cover": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/assets/covers/stalker_2.jpg",
-  "banner": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/assets/banners/stalker_2.jpg",
-  "cheats": [
-    {
-      "id": "inf_health",
-      "name": "Vida Infinita",
-      "command": "inf_health",
-      "category": "Jogador",
-      "type": "toggle",
-      "enabled": false,
-      "hotkey": "F1",
-      "description": "Mantém a vida atual sempre igual ao valor máximo do jogador"
-    }
-  ]
-}
