@@ -38,16 +38,96 @@
     "id": "dying_light_beast",
     "title": "Dying Light: The Beast",
     "process_name": "DyingLightTheBeast.exe",
-    "version": "1.2.4",
+    "version": "1.0.0",
     "cover_url": "https://images.unsplash.com/photo-1552824796-52c6fdfa6f44?q=80&w=800&auto=format&fit=crop",
-    "dll_url": "https://cdn.example.com/trainers/dyinglight-v124.dll",
-    "sha256": "a354b2b14e6a17866e3f324f8d2b9e3079730194a3a144f7b15d9f7623c3656b",
+    "poster_url": "https://images.unsplash.com/photo-1552824796-52c6fdfa6f44?q=80&w=800&auto=format&fit=crop",
+    "banner_url": "https://images.unsplash.com/photo-1552824796-52c6fdfa6f44?q=80&w=800&auto=format&fit=crop",
+    "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
+    "dll_asset_name": "DyingLightTheBeastMod.dll",
+    "sha256": "bypass",
+    "pipe_name": "\\\\.\\pipe\\DyingLightTheBeast_Trainer",
     "cheats": [
-      { "id": "godmode_dl", "name": "Modo Deus (Imune a Dano)", "hotkey": "NUMPAD 1", "enabled": false, "category": "Sobrevivência" },
-      { "id": "inf_stamina_dl", "name": "Estamina Infinita de Parkour", "hotkey": "NUMPAD 2", "enabled": false, "category": "Sobrevivência" },
-      { "id": "inf_durability", "name": "Durabilidade Infinita das Armas", "hotkey": "NUMPAD 3", "enabled": false, "category": "Itens" },
-      { "id": "one_hit_kill", "name": "Morte com 1 Golpe (One Hit Kill)", "hotkey": "NUMPAD 4", "enabled": false, "category": "Combate" },
-      { "id": "stealth_mode", "name": "Invisível para Zumbis", "hotkey": "NUMPAD 5", "enabled": false, "category": "Furtividade" }
+      {
+        "id": "inf_health",
+        "name": "Vida Infinita",
+        "hotkey": "NUMPAD 1",
+        "type": "toggle",
+        "enabled": false,
+        "category": "Sobrevivência",
+        "description": "Impede que o jogador sofra qualquer tipo de dano"
+      },
+      {
+        "id": "inf_stamina",
+        "name": "Estamina Infinita",
+        "hotkey": "NUMPAD 2",
+        "type": "toggle",
+        "enabled": false,
+        "category": "Sobrevivência",
+        "description": "Estamina não se esgota durante o parkour e ataques"
+      },
+      {
+        "id": "inf_fury",
+        "name": "Fúria Infinita",
+        "hotkey": "NUMPAD 3",
+        "type": "toggle",
+        "enabled": false,
+        "category": "Combate",
+        "description": "Trava a barra de fúria sempre no valor máximo (100)"
+      },
+      {
+        "id": "easy_lockpick",
+        "name": "Gazua Fácil",
+        "hotkey": "NUMPAD 4",
+        "type": "toggle",
+        "enabled": false,
+        "category": "Mundo",
+        "description": "A gazua nunca se quebra ao arrombar fechaduras"
+      },
+      {
+        "id": "one_hit_kill",
+        "name": "Morte com 1 Golpe",
+        "hotkey": "NUMPAD 5",
+        "type": "toggle",
+        "enabled": false,
+        "category": "Combate",
+        "description": "Derrota qualquer inimigo ou zumbi instantaneamente"
+      },
+      {
+        "id": "invisible",
+        "name": "Invisibilidade",
+        "hotkey": "NUMPAD 6",
+        "type": "toggle",
+        "enabled": false,
+        "category": "Furtividade",
+        "description": "Inimigos e zumbis ignoram a presença do jogador"
+      },
+      {
+        "id": "trigger_beast",
+        "name": "Ativar Modo Fera",
+        "hotkey": "NUMPAD 7",
+        "type": "action",
+        "enabled": false,
+        "category": "Poderes",
+        "description": "Dispara instantaneamente a transformação no Modo Fera"
+      },
+      {
+        "id": "save_pos",
+        "name": "Salvar Posição",
+        "hotkey": "NUMPAD 8",
+        "type": "action",
+        "enabled": false,
+        "category": "Teleporte",
+        "description": "Guarda as coordenadas atuais (X, Y, Z) do jogador"
+      },
+      {
+        "id": "teleport",
+        "name": "Teleportar",
+        "hotkey": "NUMPAD 9",
+        "type": "action",
+        "enabled": false,
+        "category": "Teleporte",
+        "description": "Teleporta o jogador para a posição salva previamente"
+      }
     ]
   },
   {
