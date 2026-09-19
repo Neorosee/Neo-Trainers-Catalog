@@ -54,7 +54,7 @@
         "type": "toggle",
         "enabled": false,
         "category": "Sobrevivência",
-        "description": "Impede que o jogador sofra qualquer tipo de dano"
+        "description": "Impede que o jogador sofra dano"
       },
       {
         "id": "inf_stamina",
@@ -63,7 +63,7 @@
         "type": "toggle",
         "enabled": false,
         "category": "Sobrevivência",
-        "description": "Estamina não se esgota durante o parkour e ataques"
+        "description": "Estamina não diminui durante o parkour e escaladas"
       },
       {
         "id": "inf_fury",
@@ -72,25 +72,25 @@
         "type": "toggle",
         "enabled": false,
         "category": "Combate",
-        "description": "Trava a barra de fúria sempre no valor máximo (100)"
-      },
-      {
-        "id": "easy_lockpick",
-        "name": "Gazua Fácil",
-        "hotkey": "NUMPAD 4",
-        "type": "toggle",
-        "enabled": false,
-        "category": "Mundo",
-        "description": "A gazua nunca se quebra ao arrombar fechaduras"
+        "description": "Trava a fúria no valor máximo (100)"
       },
       {
         "id": "one_hit_kill",
         "name": "Morte com 1 Golpe",
-        "hotkey": "NUMPAD 5",
+        "hotkey": "NUMPAD 4",
         "type": "toggle",
         "enabled": false,
         "category": "Combate",
-        "description": "Derrota qualquer inimigo ou zumbi instantaneamente"
+        "description": "Elimina zumbis e inimigos em um único acerto"
+      },
+      {
+        "id": "easy_lockpick",
+        "name": "Gazua Fácil",
+        "hotkey": "NUMPAD 5",
+        "type": "toggle",
+        "enabled": false,
+        "category": "Mundo",
+        "description": "A gazua nunca se quebra em fechaduras"
       },
       {
         "id": "invisible",
@@ -99,7 +99,7 @@
         "type": "toggle",
         "enabled": false,
         "category": "Furtividade",
-        "description": "Inimigos e zumbis ignoram a presença do jogador"
+        "description": "Inimigos não percebem a sua presença"
       },
       {
         "id": "trigger_beast",
@@ -108,7 +108,7 @@
         "type": "action",
         "enabled": false,
         "category": "Poderes",
-        "description": "Dispara instantaneamente a transformação no Modo Fera"
+        "description": "Dispara a transformação instantânea no Modo Fera"
       },
       {
         "id": "save_pos",
@@ -117,7 +117,7 @@
         "type": "action",
         "enabled": false,
         "category": "Teleporte",
-        "description": "Guarda as coordenadas atuais (X, Y, Z) do jogador"
+        "description": "Salva as coordenadas X, Y e Z da engine"
       },
       {
         "id": "teleport",
@@ -126,7 +126,7 @@
         "type": "action",
         "enabled": false,
         "category": "Teleporte",
-        "description": "Teleporta o jogador para a posição salva previamente"
+        "description": "Teleporta o jogador para a coordenada salva"
       }
     ]
   },
