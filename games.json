@@ -66,9 +66,28 @@
         "description": "Estamina não diminui durante o parkour e escaladas"
       },
       {
+        "id": "trigger_beast",
+        "name": "Entrar no Modo Fera",
+        "hotkey": "NUMPAD 3",
+        "type": "action",
+        "actionText": "Solicitar",
+        "enabled": false,
+        "category": "Combate",
+        "description": "Dispara a transformação instantânea no Modo Fera"
+      },
+      {
+        "id": "inf_beast",
+        "name": "Duração Ilimitada do Modo Besta",
+        "hotkey": "NUMPAD 4",
+        "type": "toggle",
+        "enabled": false,
+        "category": "Combate",
+        "description": "Trava a barra do Modo Fera cheia continuamente"
+      },
+      {
         "id": "inf_fury",
         "name": "Fúria Infinita",
-        "hotkey": "NUMPAD 3",
+        "hotkey": "NUMPAD 5",
         "type": "toggle",
         "enabled": false,
         "category": "Combate",
@@ -77,7 +96,7 @@
       {
         "id": "one_hit_kill",
         "name": "Morte com 1 Golpe",
-        "hotkey": "NUMPAD 4",
+        "hotkey": "NUMPAD 6",
         "type": "toggle",
         "enabled": false,
         "category": "Combate",
@@ -86,7 +105,7 @@
       {
         "id": "easy_lockpick",
         "name": "Gazua Fácil",
-        "hotkey": "NUMPAD 5",
+        "hotkey": "NUMPAD 7",
         "type": "toggle",
         "enabled": false,
         "category": "Mundo",
@@ -95,26 +114,18 @@
       {
         "id": "invisible",
         "name": "Invisibilidade",
-        "hotkey": "NUMPAD 6",
+        "hotkey": "NUMPAD 8",
         "type": "toggle",
         "enabled": false,
         "category": "Furtividade",
         "description": "Inimigos não percebem a sua presença"
       },
       {
-        "id": "trigger_beast",
-        "name": "Ativar Modo Fera",
-        "hotkey": "NUMPAD 7",
-        "type": "action",
-        "enabled": false,
-        "category": "Poderes",
-        "description": "Dispara a transformação instantânea no Modo Fera"
-      },
-      {
         "id": "save_pos",
         "name": "Salvar Posição",
-        "hotkey": "NUMPAD 8",
+        "hotkey": "NUMPAD 9",
         "type": "action",
+        "actionText": "Salvar",
         "enabled": false,
         "category": "Teleporte",
         "description": "Salva as coordenadas X, Y e Z da engine"
@@ -122,8 +133,9 @@
       {
         "id": "teleport",
         "name": "Teleportar",
-        "hotkey": "NUMPAD 9",
+        "hotkey": "NUMPAD 0",
         "type": "action",
+        "actionText": "Teleportar",
         "enabled": false,
         "category": "Teleporte",
         "description": "Teleporta o jogador para a coordenada salva"
