@@ -69,9 +69,8 @@
         "id": "trigger_beast",
         "name": "Entrar no Modo Fera",
         "hotkey": "NUMPAD 3",
-        "type": "action",
+        "type": "button",
         "actionText": "Solicitar",
-        "enabled": false,
         "category": "Combate",
         "description": "Dispara a transformação instantânea no Modo Fera"
       },
@@ -124,9 +123,8 @@
         "id": "save_pos",
         "name": "Salvar Posição",
         "hotkey": "NUMPAD 9",
-        "type": "action",
+        "type": "button",
         "actionText": "Salvar",
-        "enabled": false,
         "category": "Teleporte",
         "description": "Salva as coordenadas X, Y e Z da engine"
       },
@@ -134,9 +132,8 @@
         "id": "teleport",
         "name": "Teleportar",
         "hotkey": "NUMPAD 0",
-        "type": "action",
+        "type": "button",
         "actionText": "Teleportar",
-        "enabled": false,
         "category": "Teleporte",
         "description": "Teleporta o jogador para a coordenada salva"
       }
