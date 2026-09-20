@@ -69,7 +69,7 @@
         "id": "trigger_beast",
         "name": "Entrar no Modo Fera",
         "hotkey": "NUMPAD 3",
-        "type": "button",
+        "type": "action",
         "actionText": "Solicitar",
         "category": "Combate",
         "description": "Dispara a transformação instantânea no Modo Fera"
