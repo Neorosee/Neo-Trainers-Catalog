@@ -272,6 +272,15 @@
         "enabled": false,
         "category": "Jogador",
         "description": "Ignora todos os impactos e zera o dano recebido por Cal Kestis"
+      },
+      {
+        "id": "inf_force",
+        "name": "Força Infinita",
+        "hotkey": "NUMPAD 3",
+        "type": "toggle",
+        "enabled": false,
+        "category": "Poderes",
+        "description": "Permite usar os poderes da Força sem esgotar a barra azul"
       }
     ]
   }
