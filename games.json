@@ -281,6 +281,15 @@
         "enabled": false,
         "category": "Poderes",
         "description": "Permite usar os poderes da Força sem esgotar a barra azul"
+      },
+      {
+        "id": "inf_shield",
+        "name": "Escudo / Bloqueio Infinito",
+        "hotkey": "NUMPAD 4",
+        "type": "toggle",
+        "enabled": false,
+        "category": "Combate",
+        "description": "A barra de defesa não quebra ao bloquear ataques de sabre e projéteis"
       }
     ]
   }
