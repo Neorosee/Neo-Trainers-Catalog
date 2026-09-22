@@ -241,5 +241,29 @@
         "description": "Mantém a vida atual sempre igual ao valor máximo do jogador"
       }
     ]
+  },
+  {
+    "id": "jedi_fallen_order",
+    "title": "Star Wars Jedi: Fallen Order",
+    "process_name": "starwarsjedifallenorder.exe",
+    "version": "1.0.0",
+    "cover_url": "https://cdn2.steamgriddb.com/icon/359a35e9f8f63567d1656b823e59ba33/32/256x256.png",
+    "poster_url": "https://cdn2.steamgriddb.com/thumb/8d05541ea50e32b40098f98d575c3db1.jpg",
+    "banner_url": "https://cdn2.steamgriddb.com/hero/75084928fe8c0490bbf4e4895eeaa2d8.jpg",
+    "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
+    "dll_asset_name": "StarWarsJediFallenOrderMod.dll",
+    "sha256": "bypass",
+    "pipe_name": "\\\\.\\pipe\\StarWarsJediFallenOrder_Trainer",
+    "cheats": [
+      {
+        "id": "god_mode",
+        "name": "Modo Deus / Ignorar Golpes",
+        "hotkey": "NUMPAD 1",
+        "type": "toggle",
+        "enabled": false,
+        "category": "Jogador",
+        "description": "Ignora todos os impactos e zera o dano recebido por Cal Kestis"
+      }
+    ]
   }
 ]
