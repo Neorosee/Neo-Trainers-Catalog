@@ -256,9 +256,18 @@
     "pipe_name": "\\\\.\\pipe\\StarWarsJediFallenOrder_Trainer",
     "cheats": [
       {
+        "id": "inf_health",
+        "name": "Vida Infinita",
+        "hotkey": "NUMPAD 1",
+        "type": "toggle",
+        "enabled": false,
+        "category": "Jogador",
+        "description": "Mantém a barra de vida de Cal Kestis sempre no valor máximo"
+      },
+      {
         "id": "god_mode",
         "name": "Modo Deus / Ignorar Golpes",
-        "hotkey": "NUMPAD 1",
+        "hotkey": "NUMPAD 2",
         "type": "toggle",
         "enabled": false,
         "category": "Jogador",
