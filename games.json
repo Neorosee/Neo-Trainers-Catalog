@@ -165,7 +165,7 @@
     "title": "A Lenda do Herói",
     "process_name": "DumaLegend.exe",
     "version": "2.0.1",
-    "cover_url": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?q=80&w=800&auto=format&fit=crop",
+    "cover_url": "https://static.wikia.nocookie.net/dublagem/images/4/4d/A_Lenda_do_Her%C3%B3i.jpg/revision/latest?cb=20240904170331&path-prefix=pt-br",
     "dll_url": "https://cdn.example.com/trainers/herolegend-v201.dll",
     "sha256": "2c7f6aef3c1ca2c4894bfc12e1521d51ac9665ca0e3b8413eeb24a192535444d",
     "pipe_name": "\\\\.\\pipe\\HeroLegend_Trainer",
