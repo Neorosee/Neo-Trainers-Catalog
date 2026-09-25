@@ -1,20 +1,24 @@
 [
   {
     "id": "gta_vc",
-    "title": "Grand Theft Auto: Vice City",
-    "process_name": "gta-vc.exe",
-    "version": "1.0.2",
+    "title": "Grand Theft Auto: Vice City Definitive Edition",
+    "process_name": "ViceCity.exe",
+    "version": "1.0.0",
     "cover_url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop",
-    "dll_url": "https://cdn.example.com/trainers/gtavc-v102.dll",
-    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
+    "dll_asset_name": "GTAVCDE.dll",
+    "sha256": "bypass",
+    "pipe_name": "\\\\.\\pipe\\GTAViceCityDefinitive_Trainer",
     "cheats": [
-      { "id": "inf_health", "name": "Vida Infinita", "hotkey": "NUMPAD 1", "enabled": false, "category": "Jogador" },
-      { "id": "inf_armor", "name": "Colete Infinito", "hotkey": "NUMPAD 2", "enabled": false, "category": "Jogador" },
-      { "id": "inf_ammo", "name": "Munição Infinita", "hotkey": "NUMPAD 3", "enabled": false, "category": "Armas" },
-      { "id": "no_reload", "name": "Sem Recarga", "hotkey": "NUMPAD 4", "enabled": false, "category": "Armas" },
-      { "id": "add_cash", "name": "Adicionar $250.000", "hotkey": "NUMPAD 5", "enabled": false, "category": "Economia" },
-      { "id": "never_wanted", "name": "Nunca Procurado pela Polícia", "hotkey": "NUMPAD 6", "enabled": false, "category": "Mundo" },
-      { "id": "super_speed", "name": "Super Velocidade", "hotkey": "NUMPAD 7", "enabled": false, "category": "Jogador" }
+      {
+        "id": "never_wanted",
+        "name": "Nunca Procurado pela Polícia",
+        "hotkey": "NUMPAD 1",
+        "type": "toggle",
+        "enabled": false,
+        "category": "Mundo",
+        "description": "Zera o nível de procurado e os Chaos Points, impedindo a polícia de perseguir Tommy Vercetti"
+      }
     ]
   },
   {
