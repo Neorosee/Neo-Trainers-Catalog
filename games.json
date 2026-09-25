@@ -11,13 +11,17 @@
     "pipe_name": "\\\\.\\pipe\\GTAViceCityDefinitive_Trainer",
     "cheats": [
       {
-        "id": "never_wanted",
-        "name": "Nunca Procurado pela Polícia",
+        "id": "wanted_level",
+        "name": "Nível de Procurado (Estrelas)",
         "hotkey": "NUMPAD 1",
-        "type": "toggle",
-        "enabled": false,
+        "type": "stepper",
+        "value": -1,
+        "defaultValue": -1,
+        "min": -1,
+        "max": 5,
+        "step": 1,
         "category": "Mundo",
-        "description": "Zera o nível de procurado e os Chaos Points, impedindo a polícia de perseguir Tommy Vercetti"
+        "description": "Defina de -1 a 5 (-1 = Modo Padrão do Jogo/IA Livre, 0 = Nunca Procurado, 1 a 5 = Travar Estrelas)"
       }
     ]
   },
@@ -242,7 +246,7 @@
         "hotkey": "F1",
         "enabled": false,
         "category": "Jogador",
-        "description": "Mantém a vida atual sempre igual ao valor máximo do jogador"
+        "description": "Mantém a barra de vida de Cal Kestis sempre no valor máximo"
       }
     ]
   },
