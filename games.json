@@ -246,7 +246,7 @@
         "hotkey": "F1",
         "enabled": false,
         "category": "Jogador",
-        "description": "Mantém a barra de vida de Cal Kestis sempre no valor máximo"
+        "description": "Mantém a vida atual sempre igual ao valor máximo do jogador"
       }
     ]
   },
@@ -340,6 +340,15 @@
         "enabled": false,
         "category": "Armas",
         "description": "Elimina o coice vertical e horizontal de todas as armas de fogo ao disparar"
+      },
+      {
+        "id": "pesetas",
+        "name": "Pesetas (Dinheiro)",
+        "hotkey": "NUMPAD 4",
+        "type": "action",
+        "actionText": "Definir Máximo",
+        "category": "Economia",
+        "description": "Define o saldo para 9.999.999 Pesetas ao abrir o inventário ou interagir com o Mercador"
       }
     ]
   }
