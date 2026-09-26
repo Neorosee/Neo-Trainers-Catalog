@@ -316,12 +316,12 @@
     "cheats": [
       {
         "id": "infinite_health",
-        "name": "Vida Infinita (Sincroniza Máxima)",
+        "name": "Vida Infinita",
         "hotkey": "NUMPAD 1",
         "type": "toggle",
         "enabled": false,
         "category": "Jogador",
-        "description": "Mantém a barra de vida atual sempre cheia de acordo com a vida máxima, permitindo reações normais de impacto"
+       
       },
       {
         "id": "god_mode",
