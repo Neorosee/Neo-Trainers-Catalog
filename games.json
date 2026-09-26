@@ -315,18 +315,27 @@
     "pipe_name": "\\\\.\\pipe\\ResidentEvil4Remake_Trainer",
     "cheats": [
       {
-        "id": "god_mode",
-        "name": "Modo Invencível / Modo Deus",
+        "id": "infinite_health",
+        "name": "Vida Infinita (Sincroniza Máxima)",
         "hotkey": "NUMPAD 1",
         "type": "toggle",
         "enabled": false,
         "category": "Jogador",
-        "description": "Leon fica completamente invulnerável a qualquer ataque, agarrão ou dano de inimigos"
+        "description": "Mantém a barra de vida atual sempre cheia de acordo com a vida máxima, permitindo reações normais de impacto"
+      },
+      {
+        "id": "god_mode",
+        "name": "Modo Invencível / Ignorar Golpes",
+        "hotkey": "NUMPAD 2",
+        "type": "toggle",
+        "enabled": false,
+        "category": "Jogador",
+        "description": "Leon fica completamente intangível e imune a qualquer ataque, agarrão ou dano de inimigos"
       },
       {
         "id": "no_spread",
         "name": "Precisão Máxima / Sem Dispersão",
-        "hotkey": "NUMPAD 2",
+        "hotkey": "NUMPAD 3",
         "type": "toggle",
         "enabled": false,
         "category": "Armas",
@@ -335,7 +344,7 @@
       {
         "id": "no_recoil",
         "name": "Sem Recuo",
-        "hotkey": "NUMPAD 3",
+        "hotkey": "NUMPAD 4",
         "type": "toggle",
         "enabled": false,
         "category": "Armas",
@@ -344,7 +353,7 @@
       {
         "id": "pesetas",
         "name": "Pesetas (Dinheiro)",
-        "hotkey": "NUMPAD 4",
+        "hotkey": "NUMPAD 5",
         "type": "action",
         "actionText": "Definir Máximo",
         "category": "Economia",
