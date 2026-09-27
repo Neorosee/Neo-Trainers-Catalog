@@ -252,9 +252,23 @@
         "id": "inf_health",
         "name": "Vida Infinita",
         "hotkey": "F1",
+        "type": "toggle",
         "enabled": false,
         "category": "Jogador",
         "description": "Mantém a vida atual sempre igual ao valor máximo do jogador"
+      },
+      {
+        "id": "jump_height",
+        "name": "Multiplicador de Altura de Salto",
+        "hotkey": "Shift F2 / Ctrl F2",
+        "type": "slider",
+        "value": 0,
+        "defaultValue": 0,
+        "min": 0,
+        "max": 16,
+        "step": 1,
+        "category": "Movimentação",
+        "description": "Multiplica a força de impulsão do salto (0 = Padrão do jogo [700], 1 a 16 = Multiplicador)"
       }
     ]
   },
