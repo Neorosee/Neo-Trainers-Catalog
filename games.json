@@ -321,6 +321,7 @@
         "type": "toggle",
         "enabled": false,
         "category": "Jogador",
+        "description": ""
        
       },
       {
