@@ -260,13 +260,15 @@
       {
         "id": "jump_height",
         "name": "Multiplicador de Altura de Salto",
-        "hotkey": "Shift F2 / Ctrl F2",
         "type": "slider",
         "value": 0,
         "defaultValue": 0,
         "min": 0,
         "max": 16,
         "step": 1,
+        "hotkeyUp": "SHIFT+F2",
+        "hotkeyDown": "CTRL+F2",
+        "hotkey": "Shift F2 / Ctrl F2",
         "category": "Movimentação",
         "description": "Multiplica a força de impulsão do salto (0 = Padrão do jogo [700], 1 a 16 = Multiplicador)"
       }
