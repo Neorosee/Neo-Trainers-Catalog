@@ -24,30 +24,78 @@
         "category": "Mundo",
         "description": "Defina de -1 a 5 (-1 = Modo Padrão do Jogo/IA Livre, 0 = Nunca Procurado, 1 a 5 = Travar Estrelas)"
       }
+    ],
+    "ea_offer_id": null,
+    "epic_app_name": null,
+    "supported_platforms": [
+      "steam",
+      "epic"
     ]
   },
   {
     "id": "gta_sa",
     "title": "Grand Theft Auto: San Andreas Definitive Edition",
-    "steam_appid": 1546990,
+    "steam_appid": 1547010,
     "process_name": "SanAndreas.exe",
     "version": "1.0.0",
     "cover_url": "https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=800&auto=format&fit=crop",
     "dll_url": "https://cdn.example.com/trainers/gtasa-v100.dll",
     "sha256": "b94d27b9934d3e08a52e52d7da7dabfac484efe37a5380ee9088f7ace2efcde9",
     "cheats": [
-      { "id": "godmode", "name": "Modo Invencível", "hotkey": "F1", "enabled": false, "category": "Jogador" },
-      { "id": "inf_stamina", "name": "Estamina Infinita", "hotkey": "F2", "enabled": false, "category": "Jogador" },
-      { "id": "add_cash_sa", "name": "Adicionar $250.000", "hotkey": "F3", "enabled": false, "category": "Economia" },
-      { "id": "inf_ammo_sa", "name": "Munição e Granadas Infinitas", "hotkey": "F4", "enabled": false, "category": "Armas" },
-      { "id": "max_respect", "name": "Respeito e Músculo Máximo", "hotkey": "F5", "enabled": false, "category": "Status" },
-      { "id": "flying_cars", "name": "Carros Voadores", "hotkey": "F6", "enabled": false, "category": "Veículos" }
+      {
+        "id": "godmode",
+        "name": "Modo Invencível",
+        "hotkey": "F1",
+        "enabled": false,
+        "category": "Jogador"
+      },
+      {
+        "id": "inf_stamina",
+        "name": "Estamina Infinita",
+        "hotkey": "F2",
+        "enabled": false,
+        "category": "Jogador"
+      },
+      {
+        "id": "add_cash_sa",
+        "name": "Adicionar $250.000",
+        "hotkey": "F3",
+        "enabled": false,
+        "category": "Economia"
+      },
+      {
+        "id": "inf_ammo_sa",
+        "name": "Munição e Granadas Infinitas",
+        "hotkey": "F4",
+        "enabled": false,
+        "category": "Armas"
+      },
+      {
+        "id": "max_respect",
+        "name": "Respeito e Músculo Máximo",
+        "hotkey": "F5",
+        "enabled": false,
+        "category": "Status"
+      },
+      {
+        "id": "flying_cars",
+        "name": "Carros Voadores",
+        "hotkey": "F6",
+        "enabled": false,
+        "category": "Veículos"
+      }
+    ],
+    "ea_offer_id": null,
+    "epic_app_name": null,
+    "supported_platforms": [
+      "steam",
+      "epic"
     ]
   },
   {
     "id": "dying_light_beast",
     "title": "Dying Light: The Beast",
-    "steam_appid": 3008130,
+    "steam_appid": 3028330,
     "process_name": "DyingLightGame_TheBeast_x64_rwdi.exe",
     "version": "1.0.0",
     "cover_url": "https://cdn2.steamgriddb.com/icon_thumb/1eef0c04093bbf87e6b5f51fffc94e92.png",
@@ -148,6 +196,12 @@
         "category": "Teleporte",
         "description": "Teleporta o jogador para a coordenada salva"
       }
+    ],
+    "ea_offer_id": null,
+    "epic_app_name": null,
+    "supported_platforms": [
+      "steam",
+      "epic"
     ]
   },
   {
@@ -164,18 +218,73 @@
     "sha256": "bypass",
     "pipe_name": "\\\\.\\pipe\\JediSurvivor_Trainer",
     "cheats": [
-      { "id": "god_mode_ignore_hits", "name": "Mod Deus / Ignorar Hits", "hotkey": "F1", "enabled": false, "category": "Jogador", "description": "Ignora todos os acertos e golpes recebidos no Cal Kestis" },
-      { "id": "stealth", "name": "Invisibilidade", "hotkey": "F4", "enabled": false, "category": "Jogador", "description": "Inimigos e criaturas ignoram a presença de Cal Kestis" },
-      { "id": "disallow_ai_attack", "name": "Inimigos Não Atacam", "hotkey": "F6", "enabled": false, "category": "Inimigos", "description": "Impede a inteligência artificial dos inimigos de iniciar ataques" },
-      { "id": "inf_force", "name": "Força Jedi Infinita", "hotkey": "F2", "enabled": false, "category": "Poderes", "description": "Permite usar habilidades da Força continuamente" },
-      { "id": "inf_stims", "name": "Stims / Curas Infinitas", "hotkey": "F3", "enabled": false, "category": "Itens", "description": "Frascos de cura nunca se esgotam" },
-      { "id": "set_skill_points", "name": "Pontos de Habilidade", "hotkey": "F5", "enabled": false, "category": "Evolução", "description": "Definir quantidade de pontos de habilidade do Cal Kestis", "type": "stepper", "value": 10, "defaultValue": 10, "min": 0, "max": 99, "step": 1 }
+      {
+        "id": "god_mode_ignore_hits",
+        "name": "Mod Deus / Ignorar Hits",
+        "hotkey": "F1",
+        "enabled": false,
+        "category": "Jogador",
+        "description": "Ignora todos os acertos e golpes recebidos no Cal Kestis"
+      },
+      {
+        "id": "stealth",
+        "name": "Invisibilidade",
+        "hotkey": "F4",
+        "enabled": false,
+        "category": "Jogador",
+        "description": "Inimigos e criaturas ignoram a presença de Cal Kestis"
+      },
+      {
+        "id": "disallow_ai_attack",
+        "name": "Inimigos Não Atacam",
+        "hotkey": "F6",
+        "enabled": false,
+        "category": "Inimigos",
+        "description": "Impede a inteligência artificial dos inimigos de iniciar ataques"
+      },
+      {
+        "id": "inf_force",
+        "name": "Força Jedi Infinita",
+        "hotkey": "F2",
+        "enabled": false,
+        "category": "Poderes",
+        "description": "Permite usar habilidades da Força continuamente"
+      },
+      {
+        "id": "inf_stims",
+        "name": "Stims / Curas Infinitas",
+        "hotkey": "F3",
+        "enabled": false,
+        "category": "Itens",
+        "description": "Frascos de cura nunca se esgotam"
+      },
+      {
+        "id": "set_skill_points",
+        "name": "Pontos de Habilidade",
+        "hotkey": "F5",
+        "enabled": false,
+        "category": "Evolução",
+        "description": "Definir quantidade de pontos de habilidade do Cal Kestis",
+        "type": "stepper",
+        "value": 10,
+        "defaultValue": 10,
+        "min": 0,
+        "max": 99,
+        "step": 1
+      }
+    ],
+    "ea_offer_id": "Origin.OFR.50.0004944",
+    "epic_app_name": null,
+    "supported_platforms": [
+      "steam",
+      "ea",
+      "epic"
     ]
   },
   {
     "id": "hero_legend",
     "title": "A Lenda do Herói",
-    "steam_appid": 389980,
+    "steam_appid": 389170,
     "process_name": "DumaLegend.exe",
     "version": "2.0.1",
     "cover_url": "https://i.ibb.co/Jwhn7C5Y/Captura-de-tela-2026-09-23-075650.png",
@@ -183,18 +292,65 @@
     "sha256": "2c7f6aef3c1ca2c4894bfc12e1521d51ac9665ca0e3b8413eeb24a192535444d",
     "pipe_name": "\\\\.\\pipe\\HeroLegend_Trainer",
     "cheats": [
-      { "id": "inf_hp", "name": "HP / Vida Infinita", "hotkey": "CTRL+1", "enabled": false, "category": "Combate", "description": "Mantém o HP no valor máximo (0x0158)" },
-      { "id": "inf_mp", "name": "MP / Energia Infinita", "hotkey": "CTRL+2", "enabled": false, "category": "Combate", "description": "Energia infinita para habilidades" },
-      { "id": "god_mode", "name": "Modo Deus (Invulnerável)", "hotkey": "CTRL+3", "enabled": false, "category": "Combate", "description": "Trava contador de invulnerabilidade" },
-      { "id": "super_speed", "name": "Super Velocidade (2x)", "hotkey": "CTRL+4", "enabled": false, "category": "Movimentação", "description": "Modificador de velocidade do herói" },
-      { "id": "one_hit_kill", "name": "Morte com 1 Golpe", "hotkey": "CTRL+5", "enabled": false, "category": "Combate", "description": "Multiplicador de dano 999x" },
-      { "id": "gold_multiplier", "name": "Multiplicador de Ouro", "hotkey": "CTRL+6", "enabled": false, "category": "Economia", "description": "Altera o endereço de ouro no save" }
+      {
+        "id": "inf_hp",
+        "name": "HP / Vida Infinita",
+        "hotkey": "CTRL+1",
+        "enabled": false,
+        "category": "Combate",
+        "description": "Mantém o HP no valor máximo (0x0158)"
+      },
+      {
+        "id": "inf_mp",
+        "name": "MP / Energia Infinita",
+        "hotkey": "CTRL+2",
+        "enabled": false,
+        "category": "Combate",
+        "description": "Energia infinita para habilidades"
+      },
+      {
+        "id": "god_mode",
+        "name": "Modo Deus (Invulnerável)",
+        "hotkey": "CTRL+3",
+        "enabled": false,
+        "category": "Combate",
+        "description": "Trava contador de invulnerabilidade"
+      },
+      {
+        "id": "super_speed",
+        "name": "Super Velocidade (2x)",
+        "hotkey": "CTRL+4",
+        "enabled": false,
+        "category": "Movimentação",
+        "description": "Modificador de velocidade do herói"
+      },
+      {
+        "id": "one_hit_kill",
+        "name": "Morte com 1 Golpe",
+        "hotkey": "CTRL+5",
+        "enabled": false,
+        "category": "Combate",
+        "description": "Multiplicador de dano 999x"
+      },
+      {
+        "id": "gold_multiplier",
+        "name": "Multiplicador de Ouro",
+        "hotkey": "CTRL+6",
+        "enabled": false,
+        "category": "Economia",
+        "description": "Altera o endereço de ouro no save"
+      }
+    ],
+    "ea_offer_id": null,
+    "epic_app_name": null,
+    "supported_platforms": [
+      "steam"
     ]
   },
   {
     "id": "pragmata",
     "title": "PRAGMATA",
-    "steam_appid": 1367080,
+    "steam_appid": null,
     "process_name": "PRAGMATA.exe",
     "version": "1.0.0",
     "cover_url": "https://cdn2.steamgriddb.com/icon_thumb/ac99c6134cf75b4c3e5f63cbb1a149ee.png",
@@ -205,9 +361,32 @@
     "sha256": "bypass",
     "pipe_name": "\\\\.\\pipe\\Pragmata_Trainer",
     "cheats": [
-      { "id": "inf_propulsor", "name": "Propulsor Infinito", "hotkey": "F1", "enabled": false, "category": "Movimentação" },
-      { "id": "inf_ammo", "name": "Munição Infinita", "hotkey": "F2", "enabled": false, "category": "Armas" },
-      { "id": "no_recoil", "name": "Sem Recuo", "hotkey": "F3", "enabled": false, "category": "Armas" }
+      {
+        "id": "inf_propulsor",
+        "name": "Propulsor Infinito",
+        "hotkey": "F1",
+        "enabled": false,
+        "category": "Movimentação"
+      },
+      {
+        "id": "inf_ammo",
+        "name": "Munição Infinita",
+        "hotkey": "F2",
+        "enabled": false,
+        "category": "Armas"
+      },
+      {
+        "id": "no_recoil",
+        "name": "Sem Recuo",
+        "hotkey": "F3",
+        "enabled": false,
+        "category": "Armas"
+      }
+    ],
+    "ea_offer_id": null,
+    "epic_app_name": null,
+    "supported_platforms": [
+      "steam"
     ]
   },
   {
@@ -232,6 +411,12 @@
         "category": "Jogador",
         "description": "Kay Vess e Nix não sofrem dano de armas inimigas ou explosões"
       }
+    ],
+    "ea_offer_id": null,
+    "epic_app_name": "Sugar",
+    "supported_platforms": [
+      "steam",
+      "epic"
     ]
   },
   {
@@ -272,6 +457,12 @@
         "category": "Movimentação",
         "description": "Multiplica a força de impulsão do salto (0 = Padrão do jogo [700], 1 a 16 = Multiplicador)"
       }
+    ],
+    "ea_offer_id": null,
+    "epic_app_name": null,
+    "supported_platforms": [
+      "steam",
+      "epic"
     ]
   },
   {
@@ -324,6 +515,13 @@
         "category": "Combate",
         "description": "A barra de defesa não quebra ao bloquear ataques de sabre e projéteis"
       }
+    ],
+    "ea_offer_id": "Origin.OFR.50.0003516",
+    "epic_app_name": null,
+    "supported_platforms": [
+      "steam",
+      "ea",
+      "epic"
     ]
   },
   {
@@ -403,6 +601,11 @@
         "category": "Teletransportar",
         "description": "Move o Leon instantaneamente de volta para a localização previamente guardada"
       }
+    ],
+    "ea_offer_id": null,
+    "epic_app_name": null,
+    "supported_platforms": [
+      "steam"
     ]
   }
 ]
