@@ -321,8 +321,7 @@
         "type": "toggle",
         "enabled": false,
         "category": "Jogador",
-        "description": ""
-       
+        "description": "Mantém o HP atual sempre sincronizado com o valor máximo do Leon"
       },
       {
         "id": "god_mode",
@@ -359,6 +358,24 @@
         "actionText": "Definir Máximo",
         "category": "Economia",
         "description": "Define o saldo para 9.999.999 Pesetas ao abrir o inventário ou interagir com o Mercador"
+      },
+      {
+        "id": "save_pos",
+        "name": "Salvar Localização",
+        "hotkey": "SHIFT+F4",
+        "type": "action",
+        "actionText": "Solicitar",
+        "category": "Teletransportar",
+        "description": "Grava as coordenadas X, Y e Z atuais do Leon na memória"
+      },
+      {
+        "id": "teleport",
+        "name": "Teleporte para Posição Salva",
+        "hotkey": "SHIFT+F5",
+        "type": "action",
+        "actionText": "Solicitar",
+        "category": "Teletransportar",
+        "description": "Move o Leon instantaneamente de volta para a localização previamente guardada"
       }
     ]
   }
