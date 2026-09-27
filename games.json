@@ -2,6 +2,7 @@
   {
     "id": "gta_vc",
     "title": "Grand Theft Auto: Vice City Definitive Edition",
+    "steam_appid": 1547000,
     "process_name": "ViceCity.exe",
     "version": "1.0.0",
     "cover_url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop",
@@ -28,6 +29,7 @@
   {
     "id": "gta_sa",
     "title": "Grand Theft Auto: San Andreas Definitive Edition",
+    "steam_appid": 1546990,
     "process_name": "SanAndreas.exe",
     "version": "1.0.0",
     "cover_url": "https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=800&auto=format&fit=crop",
@@ -45,6 +47,7 @@
   {
     "id": "dying_light_beast",
     "title": "Dying Light: The Beast",
+    "steam_appid": 3008130,
     "process_name": "DyingLightGame_TheBeast_x64_rwdi.exe",
     "version": "1.0.0",
     "cover_url": "https://cdn2.steamgriddb.com/icon_thumb/1eef0c04093bbf87e6b5f51fffc94e92.png",
@@ -150,6 +153,7 @@
   {
     "id": "jedi_survivor",
     "title": "Star Wars Jedi: Survivor",
+    "steam_appid": 1774580,
     "process_name": "JediSurvivor.exe",
     "version": "1.1.0",
     "cover_url": "https://cdn2.steamgriddb.com/icon/b18c1cc30ee2dc3e94d02de588420392/32/256x256.png",
@@ -171,6 +175,7 @@
   {
     "id": "hero_legend",
     "title": "A Lenda do Herói",
+    "steam_appid": 389980,
     "process_name": "DumaLegend.exe",
     "version": "2.0.1",
     "cover_url": "https://i.ibb.co/Jwhn7C5Y/Captura-de-tela-2026-09-23-075650.png",
@@ -189,6 +194,7 @@
   {
     "id": "pragmata",
     "title": "PRAGMATA",
+    "steam_appid": 1367080,
     "process_name": "PRAGMATA.exe",
     "version": "1.0.0",
     "cover_url": "https://cdn2.steamgriddb.com/icon_thumb/ac99c6134cf75b4c3e5f63cbb1a149ee.png",
@@ -207,6 +213,7 @@
   {
     "id": "star_wars_outlaws",
     "title": "Star Wars Outlaws",
+    "steam_appid": 2842040,
     "process_name": "Outlaws.exe",
     "version": "1.0.0",
     "cover_url": "https://cdn2.steamgriddb.com/icon_thumb/97488cc9299b8f6b707fd4a9740338a9.png",
@@ -230,6 +237,7 @@
   {
     "id": "stalker_2",
     "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+    "steam_appid": 1643320,
     "process_name": "Stalker2-Win64-Shipping.exe",
     "version": "1.0.0",
     "cover_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop",
@@ -253,6 +261,7 @@
   {
     "id": "jedi_fallen_order",
     "title": "Star Wars Jedi: Fallen Order",
+    "steam_appid": 1172380,
     "process_name": "starwarsjedifallenorder.exe",
     "version": "1.0.0",
     "cover_url": "https://cdn2.steamgriddb.com/icon/359a35e9f8f63567d1656b823e59ba33/32/256x256.png",
@@ -304,10 +313,11 @@
   {
     "id": "re4_remake",
     "title": "Resident Evil 4 Remake",
+    "steam_appid": 2050650,
     "process_name": "re4.exe",
     "version": "1.0.0",
     "cover_url": "https://cdn2.steamgriddb.com/icon/4101e97d84fc5aa0f3817387431e3b6f/32/256x256.png",
-    "poster_url": "https://cdn2.steamgriddb.com/thumb/1885dedfbdfce4b23e294d2ae2f2f085.jpg",
+    "poster_url": "https://cdn2.steamgriddb.com/thumb/cba1e78eb51d9bb0977dc8d9c02ff633.jpg",
     "banner_url": "https://cdn2.steamgriddb.com/hero/eb8d3d9e897df40c3132bb821034f3ad.jpg",
     "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
     "dll_asset_name": "ResidentEvil4RemakeMod.dll",
@@ -321,11 +331,11 @@
         "type": "toggle",
         "enabled": false,
         "category": "Jogador",
-        "description": ""
+        "description": "Mantém o HP atual sempre sincronizado com o valor máximo do Leon"
       },
       {
         "id": "god_mode",
-        "name": "Modo Deus/Ignorar Golpes",
+        "name": "Modo Invencível / Ignorar Golpes",
         "hotkey": "NUMPAD 2",
         "type": "toggle",
         "enabled": false,
@@ -334,7 +344,7 @@
       },
       {
         "id": "no_spread",
-        "name": "Super Precisão",
+        "name": "Precisão Máxima / Sem Dispersão",
         "hotkey": "NUMPAD 3",
         "type": "toggle",
         "enabled": false,
