@@ -321,11 +321,11 @@
         "type": "toggle",
         "enabled": false,
         "category": "Jogador",
-        "description": "Mantém o HP atual sempre sincronizado com o valor máximo do Leon"
+        "description": ""
       },
       {
         "id": "god_mode",
-        "name": "Modo Invencível / Ignorar Golpes",
+        "name": "Modo Deus/Ignorar Golpes",
         "hotkey": "NUMPAD 2",
         "type": "toggle",
         "enabled": false,
@@ -334,7 +334,7 @@
       },
       {
         "id": "no_spread",
-        "name": "Precisão Máxima / Sem Dispersão",
+        "name": "Super Precisão",
         "hotkey": "NUMPAD 3",
         "type": "toggle",
         "enabled": false,
