@@ -514,6 +514,32 @@
         "enabled": false,
         "category": "Combate",
         "description": "A barra de defesa não quebra ao bloquear ataques de sabre e projéteis"
+      },
+      {
+        "id": "damage_multiplier",
+        "name": "Multiplicador de Dano",
+        "type": "stepper",
+        "value": 1,
+        "defaultValue": 1,
+        "min": 1,
+        "step": 1,
+        "hotkeyUp": "NUMPAD 8",
+        "hotkeyDown": "CTRL+NUMPAD 8",
+        "category": "Combate",
+        "description": "Multiplica o dano causado por Cal Kestis contra inimigos (1 = Padrão nativo do jogo)"
+      },
+      {
+        "id": "defense_multiplier",
+        "name": "Multiplicador de Defesa",
+        "type": "stepper",
+        "value": 1,
+        "defaultValue": 1,
+        "min": 1,
+        "step": 1,
+        "hotkeyUp": "NUMPAD 9",
+        "hotkeyDown": "CTRL+NUMPAD 9",
+        "category": "Combate",
+        "description": "Divide o dano recebido por Cal Kestis de ataques e projéteis (1 = Padrão nativo do jogo)"
       }
     ],
     "ea_offer_id": "Origin.OFR.50.0003516",
