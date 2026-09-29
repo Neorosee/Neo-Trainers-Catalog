@@ -633,5 +633,39 @@
     "supported_platforms": [
       "steam"
     ]
+  },
+  {
+    "id": "sand_land",
+    "title": "SAND LAND",
+    "steam_appid": 1979440,
+    "process_name": "SANDLAND-Win64-Shipping.exe",
+    "version": "1.0.0",
+    "cover_url": "https://cdn2.steamgriddb.com/icon/3919b48c3b03f0b2f5d7ce8256a420b9/32/256x256.png",
+    "poster_url": "https://cdn2.steamgriddb.com/thumb/8d0526017833075c3f91ae88b79ebdbb.jpg",
+    "banner_url": "https://cdn2.steamgriddb.com/hero/ee4ca5a0921473fa58a74ecda8a8a649.jpg",
+    "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
+    "dll_asset_name": "SandLandMod.dll",
+    "sha256": "bypass",
+    "pipe_name": "\\\\.\\pipe\\SandLand_Trainer",
+    "cheats": [
+      {
+        "id": "jump_multiplier",
+        "name": "Definir Multiplicador de Altura de Salto",
+        "type": "stepper",
+        "value": 1,
+        "defaultValue": 1,
+        "min": 1,
+        "step": 1,
+        "hotkeyUp": "ALT+NUMPAD 8",
+        "hotkeyDown": "CTRL+ALT+NUMPAD 8",
+        "category": "Movimentação",
+        "description": "Multiplica a altura do salto do Beelzebub (1 = Altura padrão do jogo [166.25])"
+      }
+    ],
+    "ea_offer_id": null,
+    "epic_app_name": null,
+    "supported_platforms": [
+      "steam"
+    ]
   }
 ]
