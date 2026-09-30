@@ -277,6 +277,15 @@
         "description": "Definir quantidade de pontos de habilidade do Cal Kestis"
       },
       {
+        "id": "pull_enemies",
+        "name": "Puxar Inimigos Próximos",
+        "hotkey": "NUMPAD 8",
+        "type": "button",
+        "actionText": "Puxar",
+        "category": "Combate",
+        "description": "Teleporta todos os inimigos da área diretamente para a frente do Cal Kestis"
+      },
+      {
         "id": "save_pos",
         "name": "Salvar Localização",
         "hotkey": "NUMPAD 9",
