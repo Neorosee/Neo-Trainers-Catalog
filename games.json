@@ -219,13 +219,22 @@
     "pipe_name": "\\\\.\\pipe\\JediSurvivor_Trainer",
     "cheats": [
       {
+        "id": "stealth",
+        "name": "Furtividade",
+        "hotkey": "F4",
+        "type": "toggle",
+        "enabled": false,
+        "category": "Inimigos",
+        "description": "Os inimigos permanecem passivos e não entram em modo de combate"
+      },
+      {
         "id": "disallow_ai_attack",
         "name": "Inimigos Não Atacam",
         "hotkey": "F6",
         "type": "toggle",
         "enabled": false,
         "category": "Inimigos",
-        "description": "Impede a inteligência artificial dos inimigos de iniciar ataques"
+        "description": "Impede a inteligência artificial dos inimigos de disparar ações de ataque"
       },
       {
         "id": "inf_stims",
