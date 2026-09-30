@@ -222,6 +222,7 @@
         "id": "god_mode_ignore_hits",
         "name": "Mod Deus / Ignorar Hits",
         "hotkey": "F1",
+        "type": "toggle",
         "enabled": false,
         "category": "Jogador",
         "description": "Ignora todos os acertos e golpes recebidos no Cal Kestis"
@@ -230,6 +231,7 @@
         "id": "stealth",
         "name": "Invisibilidade",
         "hotkey": "F4",
+        "type": "toggle",
         "enabled": false,
         "category": "Jogador",
         "description": "Inimigos e criaturas ignoram a presença de Cal Kestis"
@@ -238,6 +240,7 @@
         "id": "disallow_ai_attack",
         "name": "Inimigos Não Atacam",
         "hotkey": "F6",
+        "type": "toggle",
         "enabled": false,
         "category": "Inimigos",
         "description": "Impede a inteligência artificial dos inimigos de iniciar ataques"
@@ -246,6 +249,7 @@
         "id": "inf_force",
         "name": "Força Jedi Infinita",
         "hotkey": "F2",
+        "type": "toggle",
         "enabled": false,
         "category": "Poderes",
         "description": "Permite usar habilidades da Força continuamente"
@@ -254,6 +258,7 @@
         "id": "inf_stims",
         "name": "Stims / Curas Infinitas",
         "hotkey": "F3",
+        "type": "toggle",
         "enabled": false,
         "category": "Itens",
         "description": "Frascos de cura nunca se esgotam"
@@ -262,15 +267,32 @@
         "id": "set_skill_points",
         "name": "Pontos de Habilidade",
         "hotkey": "F5",
-        "enabled": false,
-        "category": "Evolução",
-        "description": "Definir quantidade de pontos de habilidade do Cal Kestis",
         "type": "stepper",
         "value": 10,
         "defaultValue": 10,
         "min": 0,
         "max": 99,
-        "step": 1
+        "step": 1,
+        "category": "Evolução",
+        "description": "Definir quantidade de pontos de habilidade do Cal Kestis"
+      },
+      {
+        "id": "save_pos",
+        "name": "Salvar Localização",
+        "hotkey": "NUMPAD 9",
+        "type": "button",
+        "actionText": "Salvar",
+        "category": "Teleporte",
+        "description": "Grava as coordenadas X, Y e Z atuais do Cal Kestis na memória"
+      },
+      {
+        "id": "teleport",
+        "name": "Teleporte para Posição Salva",
+        "hotkey": "NUMPAD 0",
+        "type": "button",
+        "actionText": "Teleportar",
+        "category": "Teleporte",
+        "description": "Move o Cal Kestis instantaneamente de volta para a localização previamente guardada"
       }
     ],
     "ea_offer_id": "Origin.OFR.50.0004944",
