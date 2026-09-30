@@ -219,24 +219,6 @@
     "pipe_name": "\\\\.\\pipe\\JediSurvivor_Trainer",
     "cheats": [
       {
-        "id": "god_mode_ignore_hits",
-        "name": "Mod Deus / Ignorar Hits",
-        "hotkey": "F1",
-        "type": "toggle",
-        "enabled": false,
-        "category": "Jogador",
-        "description": "Ignora todos os acertos e golpes recebidos no Cal Kestis"
-      },
-      {
-        "id": "stealth",
-        "name": "Invisibilidade",
-        "hotkey": "F4",
-        "type": "toggle",
-        "enabled": false,
-        "category": "Jogador",
-        "description": "Inimigos e criaturas ignoram a presença de Cal Kestis"
-      },
-      {
         "id": "disallow_ai_attack",
         "name": "Inimigos Não Atacam",
         "hotkey": "F6",
@@ -246,22 +228,13 @@
         "description": "Impede a inteligência artificial dos inimigos de iniciar ataques"
       },
       {
-        "id": "inf_force",
-        "name": "Força Jedi Infinita",
-        "hotkey": "F2",
-        "type": "toggle",
-        "enabled": false,
-        "category": "Poderes",
-        "description": "Permite usar habilidades da Força continuamente"
-      },
-      {
         "id": "inf_stims",
         "name": "Stims / Curas Infinitas",
         "hotkey": "F3",
         "type": "toggle",
         "enabled": false,
         "category": "Itens",
-        "description": "Frascos de cura nunca se esgotam"
+        "description": "Frascos de cura (Stim Canisters) permanecem no valor máximo (10)"
       },
       {
         "id": "set_skill_points",
@@ -274,7 +247,7 @@
         "max": 99,
         "step": 1,
         "category": "Evolução",
-        "description": "Definir quantidade de pontos de habilidade do Cal Kestis"
+        "description": "Define a quantidade de pontos de habilidade/meditação do Cal Kestis"
       },
       {
         "id": "pull_enemies",
