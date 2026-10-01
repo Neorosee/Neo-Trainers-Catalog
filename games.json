@@ -319,12 +319,12 @@
       },
       {
         "id": "no_reload",
-        "name": "Sem Recarregar Armas",
+        "name": "Sem Recarregar",
         "hotkey": "NUMPAD 2",
         "type": "toggle",
         "enabled": false,
         "category": "Armas",
-        "description": "Permite atirar continuamente sem precisar recarregar o pente da arma"
+        "description": ""
       },
       {
         "id": "inf_ammo",
@@ -333,7 +333,7 @@
         "type": "toggle",
         "enabled": false,
         "category": "Armas",
-        "description": "Fixa a contagem de munição do inventário em 999 ao disparar"
+        "description": ""
       }
     ],
     "ea_offer_id": null,
