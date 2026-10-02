@@ -301,8 +301,8 @@
     "process_name": "DaysGone.exe",
     "version": "1.0.0",
     "cover_url": "https://cdn2.steamgriddb.com/icon/9c065f3f98227b9c9f4d380e9a7e6b01/32/256x256.png",
-    "poster_url": "https://cdn2.steamgriddb.com/thumb/5509a2f94dcc5d25d141c17c2f965c9a.jpg",
-    "banner_url": "https://wallpapercave.com/wp/wp9271929.jpg",
+    "poster_url": "https://cdn2.steamgriddb.com/thumb/24c084a44ee2bc4b88220551a37c35e3.jpg",
+    "banner_url": "https://cdn2.steamgriddb.com/hero/255b6ef66236b0fa3f675f6170d749a0.jpg",
     "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
     "dll_asset_name": "DaysGoneMod.dll",
     "sha256": "bypass",
@@ -319,12 +319,12 @@
       },
       {
         "id": "no_reload",
-        "name": "Sem Recarregar",
+        "name": "Sem Recarregar Armas",
         "hotkey": "NUMPAD 2",
         "type": "toggle",
         "enabled": false,
         "category": "Armas",
-        "description": ""
+        "description": "Permite atirar continuamente sem precisar recarregar o pente da arma"
       },
       {
         "id": "inf_ammo",
@@ -333,7 +333,75 @@
         "type": "toggle",
         "enabled": false,
         "category": "Armas",
-        "description": ""
+        "description": "Fixa a contagem de munição do inventário em 999 ao disparar"
+      }
+    ],
+    "ea_offer_id": null,
+    "epic_app_name": null,
+    "supported_platforms": [
+      "steam",
+      "epic"
+    ]
+  },
+  {
+    "id": "control_resonant",
+    "title": "Control Resonant",
+    "steam_appid": 870780,
+    "process_name": "CONTROLResonant.exe",
+    "version": "1.0.0",
+    "cover_url": "https://cdn2.steamgriddb.com/icon/4ef35efb96b3ff1cf2ca152432e92c20/32/256x256.png",
+    "poster_url": "https://cdn2.steamgriddb.com/thumb/8d8cb57ff2ea428612140bbd097951f2.jpg",
+    "banner_url": "https://cdn2.steamgriddb.com/hero/0dc937cf52db71a932b10e3032b8555e.jpg",
+    "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
+    "dll_asset_name": "ControlResonantMod.dll",
+    "sha256": "bypass",
+    "pipe_name": "\\\\.\\pipe\\ControlResonant_Trainer",
+    "cheats": [
+      {
+        "id": "inf_health",
+        "name": "Vida Infinita (Modo Deus)",
+        "hotkey": "NUMPAD 1",
+        "type": "toggle",
+        "enabled": false,
+        "category": "Jogador",
+        "description": "Mantém o HP em 100% e anula completamente qualquer dano recebido pelo jogador"
+      },
+      {
+        "id": "one_hit_kill",
+        "name": "Morte com 1 Golpe (One Hit Kill)",
+        "hotkey": "NUMPAD 2",
+        "type": "toggle",
+        "enabled": false,
+        "category": "Combate",
+        "description": "Elimina qualquer inimigo ou chefe instantaneamente em um único ataque"
+      },
+      {
+        "id": "dmg_multiplier",
+        "name": "Multiplicador de Dano",
+        "type": "stepper",
+        "value": 1,
+        "defaultValue": 1,
+        "min": 1,
+        "max": 10,
+        "step": 1,
+        "hotkeyUp": "ALT+NUMPAD 8",
+        "hotkeyDown": "CTRL+ALT+NUMPAD 8",
+        "category": "Combate",
+        "description": "Multiplica o dano causado por Jesse contra os inimigos (1 = Padrão, 2x a 10x)"
+      },
+      {
+        "id": "def_multiplier",
+        "name": "Multiplicador de Defesa",
+        "type": "stepper",
+        "value": 1,
+        "defaultValue": 1,
+        "min": 1,
+        "max": 10,
+        "step": 1,
+        "hotkeyUp": "ALT+NUMPAD 9",
+        "hotkeyDown": "CTRL+ALT+NUMPAD 9",
+        "category": "Combate",
+        "description": "Divide o dano recebido pelo jogador por ataques inimigos (1 = Padrão, 2x a 10x mais resistente)"
       }
     ],
     "ea_offer_id": null,
