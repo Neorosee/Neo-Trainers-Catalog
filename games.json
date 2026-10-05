@@ -15,7 +15,9 @@
         "id": "wanted_level",
         "name": "Nível de Procurado (Estrelas)",
         "hotkey": "NUMPAD 1",
-        "type": "stepper",
+        "hotkeyUp": "Shift+F1",
+        "hotkeyDown": "Ctrl+F1",
+        "type": "slider",
         "value": -1,
         "defaultValue": -1,
         "min": -1,
@@ -96,11 +98,9 @@
     "id": "dying_light_beast",
     "title": "Dying Light: The Beast",
     "steam_appid": 3028330,
-    "process_name": "DyingLightGame_TheBeast_x64_rwdi.exe",
+    "process_name": "DyingLightTheBeast.exe",
     "version": "1.0.0",
-    "cover_url": "https://cdn2.steamgriddb.com/icon_thumb/1eef0c04093bbf87e6b5f51fffc94e92.png",
-    "poster_url": "https://cdn2.steamgriddb.com/thumb/496318368d2bbcf15e6fa22b0ea8ed73.jpg",
-    "banner_url": "https://i.postimg.cc/nhNPkYGq/dyinglight-1.webp",
+    "cover_url": "https://images.unsplash.com/photo-1579373903781-fd5c0c30c4cd?q=80&w=800&auto=format&fit=crop",
     "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
     "dll_asset_name": "DyingLightTheBeastMod.dll",
     "sha256": "bypass",
@@ -110,91 +110,43 @@
         "id": "inf_health",
         "name": "Vida Infinita",
         "hotkey": "NUMPAD 1",
-        "type": "toggle",
         "enabled": false,
-        "category": "Sobrevivência",
-        "description": "Impede que o jogador sofra dano"
+        "category": "Jogador"
       },
       {
         "id": "inf_stamina",
         "name": "Estamina Infinita",
         "hotkey": "NUMPAD 2",
-        "type": "toggle",
         "enabled": false,
-        "category": "Sobrevivência",
-        "description": "Estamina não diminui durante o parkour e escaladas"
+        "category": "Jogador"
       },
       {
-        "id": "trigger_beast",
-        "name": "Entrar no Modo Fera",
+        "id": "inf_immunity",
+        "name": "Imunidade Infinita",
         "hotkey": "NUMPAD 3",
-        "type": "action",
-        "actionText": "Solicitar",
-        "category": "Combate",
-        "description": "Dispara a transformação instantânea no Modo Fera"
+        "enabled": false,
+        "category": "Sobrevivência"
       },
       {
-        "id": "inf_beast",
-        "name": "Duração Ilimitada do Modo Besta",
+        "id": "inf_weapon_dur",
+        "name": "Durabilidade de Arma Infinita",
         "hotkey": "NUMPAD 4",
-        "type": "toggle",
         "enabled": false,
-        "category": "Combate",
-        "description": "Trava a barra do Modo Fera cheia continuamente"
-      },
-      {
-        "id": "inf_fury",
-        "name": "Fúria Infinita",
-        "hotkey": "NUMPAD 5",
-        "type": "toggle",
-        "enabled": false,
-        "category": "Combate",
-        "description": "Trava a fúria no valor máximo (100)"
+        "category": "Armas"
       },
       {
         "id": "one_hit_kill",
         "name": "Morte com 1 Golpe",
+        "hotkey": "NUMPAD 5",
+        "enabled": false,
+        "category": "Combate"
+      },
+      {
+        "id": "inf_items",
+        "name": "Itens e Recursos Infinitos",
         "hotkey": "NUMPAD 6",
-        "type": "toggle",
         "enabled": false,
-        "category": "Combate",
-        "description": "Elimina zumbis e inimigos em um único acerto"
-      },
-      {
-        "id": "easy_lockpick",
-        "name": "Gazua Fácil",
-        "hotkey": "NUMPAD 7",
-        "type": "toggle",
-        "enabled": false,
-        "category": "Mundo",
-        "description": "A gazua nunca se quebra em fechaduras"
-      },
-      {
-        "id": "invisible",
-        "name": "Invisibilidade",
-        "hotkey": "NUMPAD 8",
-        "type": "toggle",
-        "enabled": false,
-        "category": "Furtividade",
-        "description": "Inimigos não percebem a sua presença"
-      },
-      {
-        "id": "save_pos",
-        "name": "Salvar Posição",
-        "hotkey": "NUMPAD 9",
-        "type": "button",
-        "actionText": "Salvar",
-        "category": "Teleporte",
-        "description": "Salva as coordenadas X, Y e Z da engine"
-      },
-      {
-        "id": "teleport",
-        "name": "Teleportar",
-        "hotkey": "NUMPAD 0",
-        "type": "button",
-        "actionText": "Teleportar",
-        "category": "Teleporte",
-        "description": "Teleporta o jogador para a coordenada salva"
+        "category": "Inventário"
       }
     ],
     "ea_offer_id": null,
@@ -209,84 +161,57 @@
     "title": "Star Wars Jedi: Survivor",
     "steam_appid": 1774580,
     "process_name": "JediSurvivor.exe",
-    "version": "1.1.0",
-    "cover_url": "https://cdn2.steamgriddb.com/icon/b18c1cc30ee2dc3e94d02de588420392/32/256x256.png",
-    "poster_url": "https://cdn2.steamgriddb.com/thumb/3530b91126e9f4a7c72cce057256a636.jpg",
-    "banner_url": "https://iili.io/nqTDaUP.jpg",
+    "version": "1.0.0",
+    "cover_url": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?q=80&w=800&auto=format&fit=crop",
     "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
     "dll_asset_name": "JediSurvivorMod.dll",
     "sha256": "bypass",
     "pipe_name": "\\\\.\\pipe\\JediSurvivor_Trainer",
     "cheats": [
       {
-        "id": "stealth",
-        "name": "Furtividade",
-        "hotkey": "F4",
-        "type": "toggle",
+        "id": "inf_health",
+        "name": "Vida Infinita",
+        "hotkey": "NUMPAD 1",
         "enabled": false,
-        "category": "Inimigos",
-        "description": "Os inimigos permanecem passivos e não entram em modo de combate"
+        "category": "Jogador"
       },
       {
-        "id": "disallow_ai_attack",
-        "name": "Inimigos Não Atacam",
-        "hotkey": "F6",
-        "type": "toggle",
+        "id": "inf_force",
+        "name": "Força Infinita",
+        "hotkey": "NUMPAD 2",
         "enabled": false,
-        "category": "Inimigos",
-        "description": "Impede a inteligência artificial dos inimigos de disparar ações de ataque"
+        "category": "Jogador"
       },
       {
-        "id": "inf_stims",
+        "id": "inf_block",
+        "name": "Bloqueio Infinito",
+        "hotkey": "NUMPAD 3",
+        "enabled": false,
+        "category": "Jogador"
+      },
+      {
+        "id": "one_hit_kill",
+        "name": "Morte com 1 Golpe",
+        "hotkey": "NUMPAD 4",
+        "enabled": false,
+        "category": "Combate"
+      },
+      {
+        "id": "inf_stim",
         "name": "Stims / Curas Infinitas",
-        "hotkey": "F3",
-        "type": "toggle",
+        "hotkey": "NUMPAD 5",
         "enabled": false,
-        "category": "Itens",
-        "description": "Frascos de cura (Stim Canisters) permanecem no valor máximo (10)"
+        "category": "Inventário"
       },
       {
-        "id": "set_skill_points",
-        "name": "Pontos de Habilidade",
-        "hotkey": "F5",
-        "type": "stepper",
-        "value": 10,
-        "defaultValue": 10,
-        "min": 0,
-        "max": 99,
-        "step": 1,
-        "category": "Evolução",
-        "description": "Define a quantidade de pontos de habilidade/meditação do Cal Kestis"
-      },
-      {
-        "id": "pull_enemies",
-        "name": "Puxar Inimigos Próximos",
-        "hotkey": "NUMPAD 8",
-        "type": "button",
-        "actionText": "Puxar",
-        "category": "Combate",
-        "description": "Teleporta todos os inimigos da área diretamente para a frente do Cal Kestis"
-      },
-      {
-        "id": "save_pos",
-        "name": "Salvar Localização",
-        "hotkey": "NUMPAD 9",
-        "type": "button",
-        "actionText": "Salvar",
-        "category": "Teleporte",
-        "description": "Grava as coordenadas X, Y e Z atuais do Cal Kestis na memória"
-      },
-      {
-        "id": "teleport",
-        "name": "Teleporte para Posição Salva",
-        "hotkey": "NUMPAD 0",
-        "type": "button",
-        "actionText": "Teleportar",
-        "category": "Teleporte",
-        "description": "Move o Cal Kestis instantaneamente de volta para a localização previamente guardada"
+        "id": "stealth_mode",
+        "name": "Modo Invisível / Inimigos Não Atacam",
+        "hotkey": "NUMPAD 6",
+        "enabled": false,
+        "category": "Mundo"
       }
     ],
-    "ea_offer_id": "Origin.OFR.50.0004944",
+    "ea_offer_id": "JediSurvivor_Offer",
     "epic_app_name": null,
     "supported_platforms": [
       "steam",
@@ -300,40 +225,53 @@
     "steam_appid": 1259420,
     "process_name": "DaysGone.exe",
     "version": "1.0.0",
-    "cover_url": "https://cdn2.steamgriddb.com/icon/9c065f3f98227b9c9f4d380e9a7e6b01/32/256x256.png",
-    "poster_url": "https://cdn2.steamgriddb.com/thumb/24c084a44ee2bc4b88220551a37c35e3.jpg",
-    "banner_url": "https://cdn2.steamgriddb.com/hero/255b6ef66236b0fa3f675f6170d749a0.jpg",
+    "cover_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=800&auto=format&fit=crop",
     "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
     "dll_asset_name": "DaysGoneMod.dll",
     "sha256": "bypass",
     "pipe_name": "\\\\.\\pipe\\DaysGone_Trainer",
     "cheats": [
       {
-        "id": "god_mode",
-        "name": "Modo Deus / Ignorar Golpes",
+        "id": "inf_health",
+        "name": "Vida Infinita",
         "hotkey": "NUMPAD 1",
-        "type": "toggle",
         "enabled": false,
-        "category": "Jogador",
-        "description": "Ignora todos os impactos e danos físicos recebidos por Deacon"
+        "category": "Jogador"
       },
       {
-        "id": "no_reload",
-        "name": "Sem Recarregar Armas",
+        "id": "inf_stamina",
+        "name": "Estamina Infinita",
         "hotkey": "NUMPAD 2",
-        "type": "toggle",
         "enabled": false,
-        "category": "Armas",
-        "description": "Permite atirar continuamente sem precisar recarregar o pente da arma"
+        "category": "Jogador"
+      },
+      {
+        "id": "inf_bike_fuel",
+        "name": "Gasolina Infinita da Moto",
+        "hotkey": "NUMPAD 3",
+        "enabled": false,
+        "category": "Veículos"
+      },
+      {
+        "id": "inf_bike_dur",
+        "name": "Durabilidade Infinita da Moto",
+        "hotkey": "NUMPAD 4",
+        "enabled": false,
+        "category": "Veículos"
       },
       {
         "id": "inf_ammo",
         "name": "Munição Infinita",
-        "hotkey": "NUMPAD 3",
-        "type": "toggle",
+        "hotkey": "NUMPAD 5",
         "enabled": false,
-        "category": "Armas",
-        "description": "Fixa a contagem de munição do inventário em 999 ao disparar"
+        "category": "Armas"
+      },
+      {
+        "id": "one_hit_kill",
+        "name": "Morte com 1 Golpe",
+        "hotkey": "NUMPAD 6",
+        "enabled": false,
+        "category": "Combate"
       }
     ],
     "ea_offer_id": null,
@@ -364,7 +302,7 @@
         "type": "toggle",
         "enabled": false,
         "category": "Jogador",
-        "description": "Mantém o HP em 100% e anula completamente qualquer dano recebido pelo jogador"
+        "description": "Mantém o HP em 100% e anula qualquer dano recebido pelo jogador"
       },
       {
         "id": "one_hit_kill",
@@ -373,7 +311,7 @@
         "type": "toggle",
         "enabled": false,
         "category": "Combate",
-        "description": "Elimina qualquer inimigo ou chefe instantaneamente em um único ataque"
+        "description": "Elimina qualquer inimigo ou chefe instantaneamente"
       },
       {
         "id": "dmg_multiplier",
@@ -387,7 +325,7 @@
         "hotkeyUp": "ALT+NUMPAD 8",
         "hotkeyDown": "CTRL+ALT+NUMPAD 8",
         "category": "Combate",
-        "description": "Multiplica o dano causado por Jesse contra os inimigos (1 = Padrão, 2x a 10x)"
+        "description": "Multiplica o dano causado contra os inimigos"
       },
       {
         "id": "def_multiplier",
@@ -401,7 +339,7 @@
         "hotkeyUp": "ALT+NUMPAD 9",
         "hotkeyDown": "CTRL+ALT+NUMPAD 9",
         "category": "Combate",
-        "description": "Divide o dano recebido pelo jogador por ataques inimigos (1 = Padrão, 2x a 10x mais resistente)"
+        "description": "Reduz o dano recebido pelo jogador"
       }
     ],
     "ea_offer_id": null,
@@ -418,8 +356,9 @@
     "process_name": "DumaLegend.exe",
     "version": "2.0.1",
     "cover_url": "https://i.ibb.co/Jwhn7C5Y/Captura-de-tela-2026-09-23-075650.png",
-    "dll_url": "https://cdn.example.com/trainers/herolegend-v201.dll",
-    "sha256": "2c7f6aef3c1ca2c4894bfc12e1521d51ac9665ca0e3b8413eeb24a192535444d",
+    "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
+    "dll_asset_name": "HeroLegendMod.dll",
+    "sha256": "bypass",
     "pipe_name": "\\\\.\\pipe\\HeroLegend_Trainer",
     "cheats": [
       {
@@ -480,23 +419,21 @@
   {
     "id": "pragmata",
     "title": "PRAGMATA",
-    "steam_appid": null,
-    "process_name": "PRAGMATA.exe",
+    "steam_appid": 1000001,
+    "process_name": "Pragmata.exe",
     "version": "1.0.0",
-    "cover_url": "https://cdn2.steamgriddb.com/icon_thumb/ac99c6134cf75b4c3e5f63cbb1a149ee.png",
-    "poster_url": "https://cdn2.steamgriddb.com/thumb/db8f0d953abbb8cb22f909c1776d2394.jpg",
-    "banner_url": "https://images7.alphacoders.com/140/thumb-1920-1403930.jpg",
+    "cover_url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop",
     "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
     "dll_asset_name": "PragmataMod.dll",
     "sha256": "bypass",
     "pipe_name": "\\\\.\\pipe\\Pragmata_Trainer",
     "cheats": [
       {
-        "id": "inf_propulsor",
-        "name": "Propulsor Infinito",
+        "id": "inf_hp",
+        "name": "HP Infinito",
         "hotkey": "F1",
         "enabled": false,
-        "category": "Movimentação"
+        "category": "Combate"
       },
       {
         "id": "inf_ammo",
@@ -506,11 +443,11 @@
         "category": "Armas"
       },
       {
-        "id": "no_recoil",
-        "name": "Sem Recuo",
+        "id": "god_mode",
+        "name": "Modo Deus",
         "hotkey": "F3",
         "enabled": false,
-        "category": "Armas"
+        "category": "Combate"
       }
     ],
     "ea_offer_id": null,
@@ -525,25 +462,57 @@
     "steam_appid": 2842040,
     "process_name": "Outlaws.exe",
     "version": "1.0.0",
-    "cover_url": "https://cdn2.steamgriddb.com/icon_thumb/97488cc9299b8f6b707fd4a9740338a9.png",
-    "poster_url": "https://cdn2.steamgriddb.com/thumb/9cddcc96feade261665f0a3ef5dbe6ea.jpg",
-    "banner_url": "https://images7.alphacoders.com/132/thumb-1920-1323282.jpeg",
+    "cover_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=800&auto=format&fit=crop",
     "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
     "dll_asset_name": "OutlawsMod.dll",
     "sha256": "bypass",
     "pipe_name": "\\\\.\\pipe\\Outlaws_Trainer",
     "cheats": [
       {
-        "id": "infinite_health",
-        "name": "Vida Infinita (Modo Deus)",
-        "hotkey": "F1",
+        "id": "inf_health",
+        "name": "Vida Infinita (Kay Vess)",
+        "hotkey": "NUMPAD 1",
         "enabled": false,
-        "category": "Jogador",
-        "description": "Kay Vess e Nix não sofrem dano de armas inimigas ou explosões"
+        "category": "Jogador"
+      },
+      {
+        "id": "inf_blaster_energy",
+        "name": "Blaster Sem Superaquecer",
+        "hotkey": "NUMPAD 2",
+        "enabled": false,
+        "category": "Armas"
+      },
+      {
+        "id": "one_hit_kill",
+        "name": "Morte com 1 Golpe",
+        "hotkey": "NUMPAD 3",
+        "enabled": false,
+        "category": "Combate"
+      },
+      {
+        "id": "inf_credits",
+        "name": "Créditos Galácticos Infinitos",
+        "hotkey": "NUMPAD 4",
+        "enabled": false,
+        "category": "Economia"
+      },
+      {
+        "id": "max_reputation",
+        "name": "Reputação Máxima com Todos os Sindicatos",
+        "hotkey": "NUMPAD 5",
+        "enabled": false,
+        "category": "Fações"
+      },
+      {
+        "id": "ghost_stealth",
+        "name": "Furtividade Total / Invisibilidade",
+        "hotkey": "NUMPAD 6",
+        "enabled": false,
+        "category": "Jogador"
       }
     ],
     "ea_offer_id": null,
-    "epic_app_name": "Sugar",
+    "epic_app_name": null,
     "supported_platforms": [
       "steam",
       "epic"
@@ -556,8 +525,6 @@
     "process_name": "Stalker2-Win64-Shipping.exe",
     "version": "1.0.0",
     "cover_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop",
-    "poster_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop",
-    "banner_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop",
     "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
     "dll_asset_name": "Stalker2Mod.dll",
     "sha256": "bypass",
@@ -566,26 +533,44 @@
       {
         "id": "inf_health",
         "name": "Vida Infinita",
-        "hotkey": "F1",
-        "type": "toggle",
+        "hotkey": "NUMPAD 1",
         "enabled": false,
-        "category": "Jogador",
-        "description": "Mantém a vida atual sempre igual ao valor máximo do jogador"
+        "category": "Jogador"
       },
       {
-        "id": "jump_height",
-        "name": "Multiplicador de Altura de Salto",
-        "type": "slider",
-        "value": 0,
-        "defaultValue": 0,
-        "min": 0,
-        "max": 16,
-        "step": 1,
-        "hotkeyUp": "SHIFT+F2",
-        "hotkeyDown": "CTRL+F2",
-        "hotkey": "Shift F2 / Ctrl F2",
-        "category": "Movimentação",
-        "description": "Multiplica a força de impulsão do salto (0 = Padrão do jogo [700], 1 a 16 = Multiplicador)"
+        "id": "inf_stamina",
+        "name": "Estamina Infinita",
+        "hotkey": "NUMPAD 2",
+        "enabled": false,
+        "category": "Jogador"
+      },
+      {
+        "id": "zero_radiation",
+        "name": "Radiação Zero",
+        "hotkey": "NUMPAD 3",
+        "enabled": false,
+        "category": "Sobrevivência"
+      },
+      {
+        "id": "inf_ammo",
+        "name": "Munição Infinita",
+        "hotkey": "NUMPAD 4",
+        "enabled": false,
+        "category": "Armas"
+      },
+      {
+        "id": "no_recoil",
+        "name": "Sem Recuo de Arma",
+        "hotkey": "NUMPAD 5",
+        "enabled": false,
+        "category": "Armas"
+      },
+      {
+        "id": "inf_weight",
+        "name": "Peso de Inventário Infinito",
+        "hotkey": "NUMPAD 6",
+        "enabled": false,
+        "category": "Inventário"
       }
     ],
     "ea_offer_id": null,
@@ -599,11 +584,9 @@
     "id": "jedi_fallen_order",
     "title": "Star Wars Jedi: Fallen Order",
     "steam_appid": 1172380,
-    "process_name": "starwarsjedifallenorder.exe",
+    "process_name": "FallenOrder.exe",
     "version": "1.0.0",
-    "cover_url": "https://cdn2.steamgriddb.com/icon/359a35e9f8f63567d1656b823e59ba33/32/256x256.png",
-    "poster_url": "https://cdn2.steamgriddb.com/thumb/de5cda2a7f7fe58f44a29f230d015420.jpg",
-    "banner_url": "https://cdn2.steamgriddb.com/hero/75084928fe8c0490bbf4e4895eeaa2d8.jpg",
+    "cover_url": "https://images.unsplash.com/photo-1547700055-b61cacebece9?q=80&w=800&auto=format&fit=crop",
     "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
     "dll_asset_name": "StarWarsJediFallenOrderMod.dll",
     "sha256": "bypass",
@@ -613,66 +596,46 @@
         "id": "inf_health",
         "name": "Vida Infinita",
         "hotkey": "NUMPAD 1",
-        "type": "toggle",
         "enabled": false,
-        "category": "Jogador",
-        "description": "Mantém a barra de vida de Cal Kestis sempre no valor máximo"
-      },
-      {
-        "id": "god_mode",
-        "name": "Modo Deus / Ignorar Golpes",
-        "hotkey": "NUMPAD 2",
-        "type": "toggle",
-        "enabled": false,
-        "category": "Jogador",
-        "description": "Ignora todos os impactos e zera o dano recebido por Cal Kestis"
+        "category": "Jogador"
       },
       {
         "id": "inf_force",
         "name": "Força Infinita",
+        "hotkey": "NUMPAD 2",
+        "enabled": false,
+        "category": "Jogador"
+      },
+      {
+        "id": "inf_block",
+        "name": "Bloqueio Infinito",
         "hotkey": "NUMPAD 3",
-        "type": "toggle",
         "enabled": false,
-        "category": "Poderes",
-        "description": "Permite usar os poderes da Força sem esgotar a barra azul"
+        "category": "Jogador"
       },
       {
-        "id": "inf_shield",
-        "name": "Escudo / Bloqueio Infinito",
+        "id": "one_hit_kill",
+        "name": "Morte com 1 Golpe",
         "hotkey": "NUMPAD 4",
-        "type": "toggle",
         "enabled": false,
-        "category": "Combate",
-        "description": "A barra de defesa não quebra ao bloquear ataques de sabre e projéteis"
+        "category": "Combate"
       },
       {
-        "id": "damage_multiplier",
-        "name": "Multiplicador de Dano",
-        "type": "stepper",
-        "value": 1,
-        "defaultValue": 1,
-        "min": 1,
-        "step": 1,
-        "hotkeyUp": "NUMPAD 8",
-        "hotkeyDown": "CTRL+NUMPAD 8",
-        "category": "Combate",
-        "description": "Multiplica o dano causado por Cal Kestis contra inimigos (1 = Padrão nativo do jogo)"
+        "id": "inf_stims",
+        "name": "Stims de Cura Infinitos",
+        "hotkey": "NUMPAD 5",
+        "enabled": false,
+        "category": "Inventário"
       },
       {
-        "id": "defense_multiplier",
-        "name": "Multiplicador de Defesa",
-        "type": "stepper",
-        "value": 1,
-        "defaultValue": 1,
-        "min": 1,
-        "step": 1,
-        "hotkeyUp": "NUMPAD 9",
-        "hotkeyDown": "CTRL+NUMPAD 9",
-        "category": "Combate",
-        "description": "Divide o dano recebido por Cal Kestis de ataques e projéteis (1 = Padrão nativo do jogo)"
+        "id": "inf_skill_points",
+        "name": "Pontos de Habilidade Infinitos",
+        "hotkey": "NUMPAD 6",
+        "enabled": false,
+        "category": "Evolução"
       }
     ],
-    "ea_offer_id": "Origin.OFR.50.0003516",
+    "ea_offer_id": "JediFallenOrder_Offer",
     "epic_app_name": null,
     "supported_platforms": [
       "steam",
@@ -686,35 +649,35 @@
     "steam_appid": 2050650,
     "process_name": "re4.exe",
     "version": "1.0.0",
-    "cover_url": "https://cdn2.steamgriddb.com/icon/4101e97d84fc5aa0f3817387431e3b6f/32/256x256.png",
-    "poster_url": "https://cdn2.steamgriddb.com/thumb/cba1e78eb51d9bb0977dc8d9c02ff633.jpg",
-    "banner_url": "https://cdn2.steamgriddb.com/hero/eb8d3d9e897df40c3132bb821034f3ad.jpg",
+    "cover_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg",
+    "poster_url": "https://cdn2.steamgriddb.com/thumb/8f4c40b8a1c97a8e5616f73e791e3e57.jpg",
+    "banner_url": "https://cdn2.steamgriddb.com/hero/0cba1db8229ef9f75bfdc28612140bbd.jpg",
     "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
     "dll_asset_name": "ResidentEvil4RemakeMod.dll",
     "sha256": "bypass",
     "pipe_name": "\\\\.\\pipe\\ResidentEvil4Remake_Trainer",
     "cheats": [
       {
-        "id": "infinite_health",
-        "name": "Vida Infinita",
+        "id": "god_mode",
+        "name": "Vida Infinita (Modo Deus)",
         "hotkey": "NUMPAD 1",
         "type": "toggle",
         "enabled": false,
         "category": "Jogador",
-        "description": "Mantém o HP atual sempre sincronizado com o valor máximo do Leon"
+        "description": "Leon e Ashley nunca sofrem dano e permanecem com vida cheia"
       },
       {
-        "id": "god_mode",
-        "name": "Modo Invencível / Ignorar Golpes",
+        "id": "inf_ammo",
+        "name": "Munição Infinita / Sem Recarga",
         "hotkey": "NUMPAD 2",
         "type": "toggle",
         "enabled": false,
-        "category": "Jogador",
-        "description": "Leon fica completamente intangível e imune a qualquer ataque, agarrão ou dano de inimigos"
+        "category": "Armas",
+        "description": "Atire indefinidamente sem consumir pentes e sem necessidade de recarregar"
       },
       {
         "id": "no_spread",
-        "name": "Precisão Máxima / Sem Dispersão",
+        "name": "Mira Perfeita (Sem Dispersão)",
         "hotkey": "NUMPAD 3",
         "type": "toggle",
         "enabled": false,
@@ -768,28 +731,69 @@
     "id": "sand_land",
     "title": "SAND LAND",
     "steam_appid": 1979440,
-    "process_name": "SANDLAND-Win64-Shipping.exe",
+    "process_name": "SandLand-Win64-Shipping.exe",
     "version": "1.0.0",
-    "cover_url": "https://cdn2.steamgriddb.com/icon/3919b48c3b03f0b2f5d7ce8256a420b9/32/256x256.png",
-    "poster_url": "https://cdn2.steamgriddb.com/thumb/8d0526017833075c3f91ae88b79ebdbb.jpg",
-    "banner_url": "https://cdn2.steamgriddb.com/hero/ee4ca5a0921473fa58a74ecda8a8a649.jpg",
+    "cover_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1979440/header.jpg",
+    "poster_url": "https://cdn2.steamgriddb.com/thumb/2f146beba40f92b70f0322ee5ec8a7e0.jpg",
+    "banner_url": "https://cdn2.steamgriddb.com/hero/e1564f2ad769747a8fb7324fa68a4175.jpg",
     "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
     "dll_asset_name": "SandLandMod.dll",
     "sha256": "bypass",
     "pipe_name": "\\\\.\\pipe\\SandLand_Trainer",
     "cheats": [
       {
-        "id": "jump_multiplier",
-        "name": "Definir Multiplicador de Altura de Salto",
-        "type": "stepper",
-        "value": 1,
-        "defaultValue": 1,
-        "min": 1,
-        "step": 1,
-        "hotkeyUp": "ALT+NUMPAD 8",
-        "hotkeyDown": "CTRL+ALT+NUMPAD 8",
-        "category": "Movimentação",
-        "description": "Multiplica a altura do salto do Beelzebub (1 = Altura padrão do jogo [166.25])"
+        "id": "inf_health",
+        "name": "Vida Infinita (Modo Deus)",
+        "hotkey": "NUMPAD 1",
+        "type": "toggle",
+        "enabled": false,
+        "category": "Jogador",
+        "description": "Belzebu e o tanque/veículo ficam imunes a todo tipo de dano"
+      },
+      {
+        "id": "inf_stamina",
+        "name": "Estamina Infinita",
+        "hotkey": "NUMPAD 2",
+        "type": "toggle",
+        "enabled": false,
+        "category": "Jogador",
+        "description": "Permite correr, esquivar e golpear sem gastar estamina"
+      },
+      {
+        "id": "inf_water",
+        "name": "Água Infinita",
+        "hotkey": "NUMPAD 3",
+        "type": "toggle",
+        "enabled": false,
+        "category": "Sobrevivência",
+        "description": "Suprimento de água potável no deserto nunca se esgota"
+      },
+      {
+        "id": "one_hit_kill",
+        "name": "Morte com 1 Golpe",
+        "hotkey": "NUMPAD 4",
+        "type": "toggle",
+        "enabled": false,
+        "category": "Combate",
+        "description": "Elimina qualquer inimigo ou máquina adversária instantaneamente"
+      },
+      {
+        "id": "inf_vehicle_ammo",
+        "name": "Munição Infinita de Veículos",
+        "hotkey": "NUMPAD 5",
+        "type": "toggle",
+        "enabled": false,
+        "category": "Veículos",
+        "description": "Dispare canhões, mísseis e metralhadoras veiculares sem limites de munição"
+      },
+      {
+        "id": "inf_money",
+        "name": "Dinheiro / Zeni Máximo",
+        "hotkey": "NUMPAD 6",
+        "type": "action",
+        "actionText": "Definir Máximo",
+        "category": "Economia",
+        "description": "Define o dinheiro para o valor máximo permitido nas lojas"
       }
     ],
     "ea_offer_id": null,
