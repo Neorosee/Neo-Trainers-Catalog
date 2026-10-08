@@ -817,7 +817,7 @@
       {
         "id": "no_reload",
         "name": "Sem Recarregar (Tiros Infinitos no Pente)",
-        "hotkey": "NUMPAD 1",
+        "hotkey": "F4",
         "type": "toggle",
         "enabled": false,
         "category": "Armas",
@@ -826,7 +826,7 @@
       {
         "id": "infinite_ammo",
         "name": "Munição Infinita Reserva",
-        "hotkey": "NUMPAD 2",
+        "hotkey": "F5",
         "type": "toggle",
         "enabled": false,
         "category": "Armas",
