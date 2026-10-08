@@ -801,5 +801,36 @@
     "supported_platforms": [
       "steam"
     ]
+  },
+  {
+    "id": "atomfall",
+    "title": "Atomfall",
+    "steam_appid": null,
+    "process_name": "Atomfall_dx12.exe",
+    "version": "1.0.0",
+    "cover_url": "https://cdn2.steamgriddb.com/thumb/bf3f18f0fe935b342183d8d201816ae5.jpg",
+    "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
+    "dll_asset_name": "AtomfallMod.dll",
+    "sha256": "bypass",
+    "pipe_name": "\\\\.\\pipe\\atomfall_Trainer",
+    "cheats": [
+      {
+        "id": "definir_pontos_de_habilidade",
+        "name": "Definir Pontos de Habilidade",
+        "hotkey": "NUMPAD 1",
+        "category": "Jogador",
+        "type": "stepper",
+        "value": 0,
+        "defaultValue": 0,
+        "min": 0,
+        "max": 999,
+        "step": 1
+      }
+    ],
+    "ea_offer_id": null,
+    "epic_app_name": null,
+    "supported_platforms": [
+      "steam"
+    ]
   }
 ]
