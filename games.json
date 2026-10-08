@@ -815,13 +815,22 @@
     "pipe_name": "\\\\.\\pipe\\Atomfall_Trainer",
     "cheats": [
       {
-        "id": "infinite_ammo",
-        "name": "Munição Infinita",
+        "id": "no_reload",
+        "name": "Sem Recarregar (Tiros Infinitos no Pente)",
         "hotkey": "NUMPAD 1",
         "type": "toggle",
         "enabled": false,
         "category": "Armas",
-        "description": "Mantém o pente sempre em 99 balas ao atirar sem consumir munição"
+        "description": "Nopa a instrução de desconto de balas do pente (89 77 18). Permite atirar sem descarregar o pente."
+      },
+      {
+        "id": "infinite_ammo",
+        "name": "Munição Infinita Reserva",
+        "hotkey": "NUMPAD 2",
+        "type": "toggle",
+        "enabled": false,
+        "category": "Armas",
+        "description": "Mantém o estoque total de munição sempre no máximo de 99 balas."
       }
     ],
     "ea_offer_id": null,
