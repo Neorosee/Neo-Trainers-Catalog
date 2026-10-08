@@ -812,19 +812,16 @@
     "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
     "dll_asset_name": "AtomfallMod.dll",
     "sha256": "bypass",
-    "pipe_name": "\\\\.\\pipe\\atomfall_Trainer",
+    "pipe_name": "\\\\.\\pipe\\Atomfall_Trainer",
     "cheats": [
       {
-        "id": "definir_pontos_de_habilidade",
-        "name": "Definir Pontos de Habilidade",
+        "id": "infinite_ammo",
+        "name": "Munição Infinita",
         "hotkey": "NUMPAD 1",
-        "category": "Jogador",
-        "type": "stepper",
-        "value": 0,
-        "defaultValue": 0,
-        "min": 0,
-        "max": 999,
-        "step": 1
+        "type": "toggle",
+        "enabled": false,
+        "category": "Armas",
+        "description": "Mantém o pente sempre em 99 balas ao atirar sem consumir munição"
       }
     ],
     "ea_offer_id": null,
