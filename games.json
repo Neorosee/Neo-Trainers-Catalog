@@ -430,12 +430,12 @@
     "cheats": [
       {
         "id": "inf_propulsor",
-        "name": "Propulsor Infinito (Double Jump Hook)",
+        "name": "Propulsor Infinito",
         "hotkey": "NUMPAD 1",
         "type": "toggle",
         "enabled": false,
         "category": "Jogador",
-        "description": "Combustível de propulsor infinito utilizando desvio por Relay Hook AVX."
+        "description": "Mantém o combustível do propulsor/thruster no valor máximo sem esgotar."
       },
       {
         "id": "inf_ammo",
@@ -454,6 +454,24 @@
         "enabled": false,
         "category": "Armas",
         "description": "Retorno imediato na rotina de recuo da arma anulando qualquer coice vertical e horizontal."
+      },
+      {
+        "id": "fast_kill",
+        "name": "Morte Rápida (Fast Kill)",
+        "hotkey": "NUMPAD 4",
+        "type": "toggle",
+        "enabled": false,
+        "category": "Combate",
+        "description": "Reduz o HP dos inimigos para 1 com filtro seguro de entidade (não afeta o jogador)."
+      },
+      {
+        "id": "freeze_puzzle",
+        "name": "Congelar Tempo dos Puzzles",
+        "hotkey": "NUMPAD 5",
+        "type": "toggle",
+        "enabled": false,
+        "category": "Minijogos",
+        "description": "Zera a taxa de desconto de tempo dos terminais de hacking sem travar comandos ou movimentação."
       }
     ],
     "ea_offer_id": null,
