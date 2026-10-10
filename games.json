@@ -429,25 +429,31 @@
     "pipe_name": "\\\\.\\pipe\\Pragmata_Trainer",
     "cheats": [
       {
-        "id": "inf_hp",
-        "name": "HP Infinito",
-        "hotkey": "F1",
+        "id": "inf_propulsor",
+        "name": "Propulsor Infinito (Double Jump Hook)",
+        "hotkey": "NUMPAD 1",
+        "type": "toggle",
         "enabled": false,
-        "category": "Combate"
+        "category": "Jogador",
+        "description": "Combustível de propulsor infinito utilizando desvio por Relay Hook AVX."
       },
       {
         "id": "inf_ammo",
         "name": "Munição Infinita",
-        "hotkey": "F2",
+        "hotkey": "NUMPAD 2",
+        "type": "toggle",
         "enabled": false,
-        "category": "Armas"
+        "category": "Armas",
+        "description": "Impede o decréscimo de projéteis e trava as barras de disparo."
       },
       {
-        "id": "god_mode",
-        "name": "Modo Deus",
-        "hotkey": "F3",
+        "id": "no_recoil",
+        "name": "Sem Recuo de Arma",
+        "hotkey": "NUMPAD 3",
+        "type": "toggle",
         "enabled": false,
-        "category": "Combate"
+        "category": "Armas",
+        "description": "Retorno imediato na rotina de recuo da arma anulando qualquer coice vertical e horizontal."
       }
     ],
     "ea_offer_id": null,
