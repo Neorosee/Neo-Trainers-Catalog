@@ -1,36 +1,5 @@
 [
   {
-    "id": "atomic_heart",
-    "title": "Atomic Heart",
-    "steam_appid": 668580,
-    "process_name": "AtomicHeart-Win64-Shipping.exe",
-    "version": "1.0.0",
-    "cover_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/668580/header.jpg",
-    "poster_url": "https://cdn2.steamgriddb.com/thumb/2f664a93ad5d34e6ae22939b4d82f231.jpg",
-    "banner_url": "https://cdn2.steamgriddb.com/hero/2301c2780e0466479fdf8e64c1cf6040.jpg",
-    "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
-    "dll_asset_name": "AtomicHeartMod.dll",
-    "sha256": "bypass",
-    "pipe_name": "\\\\.\\pipe\\AtomicHeart_Trainer",
-    "cheats": [
-      {
-        "id": "inf_energy",
-        "name": "Energia e Fúria Infinitas",
-        "hotkey": "NUMPAD 1",
-        "type": "toggle",
-        "enabled": false,
-        "category": "Jogador",
-        "description": "Mantém a barra de fúria e a energia de armas elétricas no valor máximo (1.000.000)."
-      }
-    ],
-    "ea_offer_id": null,
-    "epic_app_name": null,
-    "supported_platforms": [
-      "steam",
-      "xbox"
-    ]
-  },
-  {
     "id": "gta_vc",
     "title": "Grand Theft Auto: Vice City Definitive Edition",
     "steam_appid": 1547000,
@@ -528,42 +497,48 @@
         "name": "Vida Infinita (Kay Vess)",
         "hotkey": "NUMPAD 1",
         "enabled": false,
-        "category": "Jogador"
+        "category": "Jogador",
+        "description": "Mantém o HP de Kay no máximo"
       },
       {
         "id": "inf_blaster_energy",
         "name": "Blaster Sem Superaquecer",
         "hotkey": "NUMPAD 2",
         "enabled": false,
-        "category": "Armas"
+        "category": "Armas",
+        "description": "Disparo contínuo com a pistola Blaster"
       },
       {
         "id": "one_hit_kill",
         "name": "Morte com 1 Golpe",
         "hotkey": "NUMPAD 3",
         "enabled": false,
-        "category": "Combate"
+        "category": "Combate",
+        "description": "Elimina qualquer alvo com dano fatal"
       },
       {
         "id": "inf_credits",
         "name": "Créditos Galácticos Infinitos",
         "hotkey": "NUMPAD 4",
         "enabled": false,
-        "category": "Economia"
+        "category": "Economia",
+        "description": "Define créditos no limite de armazenamento"
       },
       {
         "id": "max_reputation",
         "name": "Reputação Máxima com Todos os Sindicatos",
         "hotkey": "NUMPAD 5",
         "enabled": false,
-        "category": "Fações"
+        "category": "Fações",
+        "description": "Ajusta reputação para excelente com todas as facções"
       },
       {
         "id": "ghost_stealth",
         "name": "Furtividade Total / Invisibilidade",
         "hotkey": "NUMPAD 6",
         "enabled": false,
-        "category": "Jogador"
+        "category": "Jogador",
+        "description": "Inimigos e câmaras não detetam a personagem"
       }
     ],
     "ea_offer_id": null,
@@ -892,6 +867,52 @@
     "epic_app_name": null,
     "supported_platforms": [
       "steam"
+    ]
+  },
+  {
+    "id": "atomic_heart",
+    "title": "Atomic Heart",
+    "steam_appid": 668580,
+    "process_name": "AtomicHeart-Win64-Shipping.exe",
+    "version": "1.0.0",
+    "cover_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/668580/header.jpg",
+    "poster_url": "https://cdn2.steamgriddb.com/thumb/2f664a93ad5d34e6ae22939b4d82f231.jpg",
+    "banner_url": "https://cdn2.steamgriddb.com/hero/2301c2780e0466479fdf8e64c1cf6040.jpg",
+    "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
+    "dll_asset_name": "AtomicHeartMod.dll",
+    "sha256": "bypass",
+    "pipe_name": "\\\\.\\pipe\\AtomicHeart_Trainer",
+    "cheats": [
+      {
+        "id": "inf_energy",
+        "name": "Energia e Fúria Infinitas",
+        "hotkey": "NUMPAD 1",
+        "type": "toggle",
+        "enabled": false,
+        "category": "Jogador",
+        "description": "Mantém a barra de fúria e a energia de armas elétricas no valor máximo (1.000.000)."
+      },
+      {
+        "id": "player_speed",
+        "name": "Velocidade do Jogador",
+        "hotkey": "NUMPAD 2",
+        "hotkeyUp": "Shift+F2",
+        "hotkeyDown": "Ctrl+F2",
+        "type": "slider",
+        "value": 1.0,
+        "defaultValue": 1.0,
+        "min": 1.0,
+        "max": 9999.0,
+        "step": 0.5,
+        "category": "Movimentação",
+        "description": "Multiplica a velocidade de deslocamento do protagonista (Padrão: 1.0x)."
+      }
+    ],
+    "ea_offer_id": null,
+    "epic_app_name": null,
+    "supported_platforms": [
+      "steam",
+      "xbox"
     ]
   }
 ]
