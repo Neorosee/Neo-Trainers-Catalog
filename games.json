@@ -945,7 +945,7 @@
         "type": "toggle",
         "enabled": false,
         "category": "Jogador",
-        "description": "Fixa o HP em 999 através da cadeia direta de ponteiros."
+        "description": ""
       },
       {
         "id": "inf_ammo",
@@ -954,7 +954,7 @@
         "type": "toggle",
         "enabled": false,
         "category": "Armas",
-        "description": "Trava a munição atual em 1000 através da cadeia de ponteiros direta."
+        "description": ""
       },
       {
         "id": "save_pos",
