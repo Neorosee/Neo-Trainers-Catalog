@@ -939,6 +939,15 @@
     "pipe_name": "\\\\.\\pipe\\ValorMortis_Trainer",
     "cheats": [
       {
+        "id": "inf_ammo",
+        "name": "Munição Infinita",
+        "hotkey": "NUMPAD 1",
+        "type": "toggle",
+        "enabled": false,
+        "category": "Armas",
+        "description": "Trava a munição atual em 1000 através da cadeia de ponteiros direta."
+      },
+      {
         "id": "save_pos",
         "name": "Salvar Localização",
         "hotkey": "SHIFT+F4",
