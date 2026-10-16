@@ -884,44 +884,68 @@
     "pipe_name": "\\\\.\\pipe\\AtomicHeart_Trainer",
     "cheats": [
       {
-        "id": "inf_energy",
-        "name": "Energia e Fúria Infinitas",
+        "id": "inf_health",
+        "name": "Vida Infinita",
         "hotkey": "NUMPAD 1",
         "type": "toggle",
         "enabled": false,
         "category": "Jogador",
-        "description": "Mantém a barra de fúria e a energia de armas elétricas no valor máximo (1.000.000)."
-      },
-      {
-        "id": "player_speed",
-        "name": "Velocidade do Jogador",
-        "hotkey": "NUMPAD 2",
-        "hotkeyUp": "Shift+F2",
-        "hotkeyDown": "Ctrl+F2",
-        "type": "slider",
-        "value": 1.0,
-        "defaultValue": 1.0,
-        "min": 1.0,
-        "max": 9999.0,
-        "step": 0.5,
-        "category": "Movimentação",
-        "description": "Multiplica a velocidade de deslocamento do protagonista (Padrão: 1.0x)."
+        "description": "Mantém o HP no valor máximo."
       },
       {
         "id": "inf_ammo",
         "name": "Munição Infinita",
-        "hotkey": "NUMPAD 3",
+        "hotkey": "NUMPAD 2",
         "type": "toggle",
         "enabled": false,
         "category": "Armas",
-        "description": "Impede o consumo de balas e fixa o pente com pelo menos 999 projéteis sem recarregar."
+        "description": "Impede o consumo de munição ao disparar."
+      }
+    ],
+    "ea_offer_id": null,
+    "epic_app_name": null,
+    "supported_platforms": [
+      "steam"
+    ]
+  },
+  {
+    "id": "destroy_all_humans_2",
+    "title": "Destroy All Humans! 2 - Reprobed",
+    "steam_appid": 1266700,
+    "process_name": "DH2-Win64-Shipping.exe",
+    "version": "1.0.0",
+    "cover_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1266700/header.jpg",
+    "poster_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1266700/header.jpg",
+    "banner_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1266700/header.jpg",
+    "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
+    "dll_asset_name": "DestroyAllHumans2Mod.dll",
+    "sha256": "bypass",
+    "pipe_name": "\\\\.\\pipe\\DestroyAllHumans2_Trainer",
+    "cheats": [
+      {
+        "id": "inf_health",
+        "name": "Vida Infinita (Crypto)",
+        "hotkey": "NUMPAD 1",
+        "type": "toggle",
+        "enabled": false,
+        "category": "Jogador",
+        "description": "Mantém a saúde do protagonista no valor máximo impedindo o dano."
+      },
+      {
+        "id": "one_hit_kill",
+        "name": "Morte com 1 Golpe (Inimigos)",
+        "hotkey": "NUMPAD 2",
+        "type": "toggle",
+        "enabled": false,
+        "category": "Combate",
+        "description": "Elimina os inimigos instantaneamente."
       }
     ],
     "ea_offer_id": null,
     "epic_app_name": null,
     "supported_platforms": [
       "steam",
-      "xbox"
+      "epic"
     ]
   },
   {
