@@ -884,13 +884,13 @@
         "hotkeyUp": "Ctrl+F9",
         "hotkeyDown": "Ctrl+Shift+F9",
         "type": "stepper",
-        "value": 700,
-        "defaultValue": 700,
-        "min": 700,
-        "max": 6300,
-        "step": 700,
+        "value": 1,
+        "defaultValue": 1,
+        "min": 1,
+        "max": 9,
+        "step": 1,
         "category": "Movimento",
-        "description": "Multiplica dinamicamente a altura do pulo do Crypto. Padrão: 700 (1.0x), Máximo seguro: 6.300 (9.0x), passos de 700."
+        "description": "Multiplica a altura do pulo do Crypto de 1 (700 normal) até 9 (6.300 máx seguro). Cada nível adiciona 700 de altura (1 = 700, 2 = 1400, ..., 9 = 6300)."
       }
     ],
     "ea_offer_id": null,
