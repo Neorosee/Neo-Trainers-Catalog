@@ -357,6 +357,7 @@
     "version": "2.0.1",
     "cover_url": "https://i.ibb.co/Jwhn7C5Y/Captura-de-tela-2026-09-23-075650.png",
     "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
+    "dll_asset_name": "HeroLegendMod.dll",
     "sha256": "bypass",
     "pipe_name": "\\\\.\\pipe\\HeroLegend_Trainer",
     "cheats": [
@@ -413,8 +414,7 @@
     "epic_app_name": null,
     "supported_platforms": [
       "steam"
-    ],
-    "dll_asset_name": "HeroLegendMod.dll"
+    ]
   },
   {
     "id": "pragmata",
@@ -431,47 +431,29 @@
       {
         "id": "inf_propulsor",
         "name": "Propulsor Infinito",
-        "hotkey": "NUMPAD 1",
+        "hotkey": "F1",
         "type": "toggle",
         "enabled": false,
-        "category": "Jogador",
-        "description": "Mantém o combustível do propulsor/thruster no valor máximo sem esgotar."
+        "category": "Movimento",
+        "description": "Propulsor ilimitado para esquivas e saltos aéreos sem consumo de energia"
       },
       {
         "id": "inf_ammo",
         "name": "Munição Infinita",
-        "hotkey": "NUMPAD 2",
+        "hotkey": "F2",
         "type": "toggle",
         "enabled": false,
         "category": "Armas",
-        "description": "Impede o decréscimo de projéteis e trava as barras de disparo."
+        "description": "Dispare continuamente sem esgotar o pente ou a reserva de munição"
       },
       {
         "id": "no_recoil",
-        "name": "Sem Recuo de Arma",
-        "hotkey": "NUMPAD 3",
+        "name": "Sem Recuo",
+        "hotkey": "F3",
         "type": "toggle",
         "enabled": false,
         "category": "Armas",
-        "description": "Retorno imediato na rotina de recuo da arma anulando qualquer coice vertical e horizontal."
-      },
-      {
-        "id": "fast_kill",
-        "name": "Morte Rápida (Fast Kill)",
-        "hotkey": "NUMPAD 4",
-        "type": "toggle",
-        "enabled": false,
-        "category": "Combate",
-        "description": "Reduz o HP dos inimigos para 1 com filtro seguro de entidade (não afeta o jogador)."
-      },
-      {
-        "id": "freeze_puzzle",
-        "name": "Congelar Tempo dos Puzzles",
-        "hotkey": "NUMPAD 5",
-        "type": "toggle",
-        "enabled": false,
-        "category": "Minijogos",
-        "description": "Zera a taxa de desconto de tempo dos terminais de hacking sem travar comandos ou movimentação."
+        "description": "Elimina todo o coice e espalhamento das armas de fogo"
       }
     ],
     "ea_offer_id": null,
@@ -497,48 +479,42 @@
         "name": "Vida Infinita (Kay Vess)",
         "hotkey": "NUMPAD 1",
         "enabled": false,
-        "category": "Jogador",
-        "description": "Mantém o HP de Kay no máximo"
+        "category": "Jogador"
       },
       {
         "id": "inf_blaster_energy",
         "name": "Blaster Sem Superaquecer",
         "hotkey": "NUMPAD 2",
         "enabled": false,
-        "category": "Armas",
-        "description": "Disparo contínuo com a pistola Blaster"
+        "category": "Armas"
       },
       {
         "id": "one_hit_kill",
         "name": "Morte com 1 Golpe",
         "hotkey": "NUMPAD 3",
         "enabled": false,
-        "category": "Combate",
-        "description": "Elimina qualquer alvo com dano fatal"
+        "category": "Combate"
       },
       {
         "id": "inf_credits",
         "name": "Créditos Galácticos Infinitos",
         "hotkey": "NUMPAD 4",
         "enabled": false,
-        "category": "Economia",
-        "description": "Define créditos no limite de armazenamento"
+        "category": "Economia"
       },
       {
         "id": "max_reputation",
         "name": "Reputação Máxima com Todos os Sindicatos",
         "hotkey": "NUMPAD 5",
         "enabled": false,
-        "category": "Fações",
-        "description": "Ajusta reputação para excelente com todas as facções"
+        "category": "Fações"
       },
       {
         "id": "ghost_stealth",
         "name": "Furtividade Total / Invisibilidade",
         "hotkey": "NUMPAD 6",
         "enabled": false,
-        "category": "Jogador",
-        "description": "Inimigos e câmaras não detetam a personagem"
+        "category": "Jogador"
       }
     ],
     "ea_offer_id": null,
@@ -870,45 +846,6 @@
     ]
   },
   {
-    "id": "atomic_heart",
-    "title": "Atomic Heart",
-    "steam_appid": 668580,
-    "process_name": "AtomicHeart-Win64-Shipping.exe",
-    "version": "1.0.0",
-    "cover_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/668580/header.jpg",
-    "poster_url": "https://cdn2.steamgriddb.com/thumb/2f664a93ad5d34e6ae22939b4d82f231.jpg",
-    "banner_url": "https://cdn2.steamgriddb.com/hero/2301c2780e0466479fdf8e64c1cf6040.jpg",
-    "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
-    "dll_asset_name": "AtomicHeartMod.dll",
-    "sha256": "bypass",
-    "pipe_name": "\\\\.\\pipe\\AtomicHeart_Trainer",
-    "cheats": [
-      {
-        "id": "inf_health",
-        "name": "Vida Infinita",
-        "hotkey": "NUMPAD 1",
-        "type": "toggle",
-        "enabled": false,
-        "category": "Jogador",
-        "description": "Mantém o HP no valor máximo."
-      },
-      {
-        "id": "inf_ammo",
-        "name": "Munição Infinita",
-        "hotkey": "NUMPAD 2",
-        "type": "toggle",
-        "enabled": false,
-        "category": "Armas",
-        "description": "Impede o consumo de munição ao disparar."
-      }
-    ],
-    "ea_offer_id": null,
-    "epic_app_name": null,
-    "supported_platforms": [
-      "steam"
-    ]
-  },
-  {
     "id": "destroy_all_humans_2",
     "title": "Destroy All Humans! 2 - Reprobed",
     "steam_appid": 1266700,
@@ -939,6 +876,21 @@
         "enabled": false,
         "category": "Combate",
         "description": "Elimina os inimigos instantaneamente."
+      },
+      {
+        "id": "jump_height",
+        "name": "Multiplicador de Altura do Pulo",
+        "hotkey": "Ctrl+F9",
+        "hotkeyUp": "Ctrl+F9",
+        "hotkeyDown": "Ctrl+Shift+F9",
+        "type": "stepper",
+        "value": 700,
+        "defaultValue": 700,
+        "min": 700,
+        "max": 6300,
+        "step": 700,
+        "category": "Movimento",
+        "description": "Multiplica dinamicamente a altura do pulo do Crypto. Padrão: 700 (1.0x), Máximo seguro: 6.300 (9.0x), passos de 700."
       }
     ],
     "ea_offer_id": null,
@@ -946,63 +898,6 @@
     "supported_platforms": [
       "steam",
       "epic"
-    ]
-  },
-  {
-    "id": "valor_mortis",
-    "title": "Valor Mortis",
-    "steam_appid": null,
-    "process_name": "ValorMortis-Win64-Shipping.exe",
-    "version": "1.0.0",
-    "cover_url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop",
-    "poster_url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop",
-    "banner_url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop",
-    "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
-    "dll_asset_name": "ValorMortisMod.dll",
-    "sha256": "bypass",
-    "pipe_name": "\\\\.\\pipe\\ValorMortis_Trainer",
-    "cheats": [
-      {
-        "id": "inf_health",
-        "name": "Vida Infinita",
-        "hotkey": "NUMPAD 1",
-        "type": "toggle",
-        "enabled": false,
-        "category": "Jogador",
-        "description": ""
-      },
-      {
-        "id": "inf_ammo",
-        "name": "Munição Infinita",
-        "hotkey": "NUMPAD 2",
-        "type": "toggle",
-        "enabled": false,
-        "category": "Armas",
-        "description": ""
-      },
-      {
-        "id": "save_pos",
-        "name": "Salvar Localização",
-        "hotkey": "SHIFT+F4",
-        "type": "action",
-        "actionText": "Salvar",
-        "category": "Teletransportar",
-        "description": "Grava as coordenadas X, Y e Z atuais do personagem na memória."
-      },
-      {
-        "id": "teleport",
-        "name": "Teleporte para Posição Salva",
-        "hotkey": "SHIFT+F5",
-        "type": "action",
-        "actionText": "Teleportar",
-        "category": "Teletransportar",
-        "description": "Move o protagonista instantaneamente para a posição previamente guardada."
-      }
-    ],
-    "ea_offer_id": null,
-    "epic_app_name": null,
-    "supported_platforms": [
-      "steam"
     ]
   }
 ]
