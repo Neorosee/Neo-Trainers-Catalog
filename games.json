@@ -891,6 +891,15 @@
         "step": 1,
         "category": "Movimento",
         "description": "Multiplica a altura do pulo do Crypto de 1 (700 normal) até 9 (6.300 máx seguro). Cada nível adiciona 700 de altura (1 = 700, 2 = 1400, ..., 9 = 6300)."
+      },
+      {
+        "id": "jetpack",
+        "name": "Jetpack Infinito",
+        "hotkey": "Ctrl+F10",
+        "type": "toggle",
+        "enabled": false,
+        "category": "Movimento",
+        "description": "Impede que o combustível do jetpack seja consumido durante o voo."
       }
     ],
     "ea_offer_id": null,
