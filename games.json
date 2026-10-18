@@ -900,6 +900,15 @@
         "enabled": false,
         "category": "Movimento",
         "description": "Impede que o combustível do jetpack seja consumido durante o voo."
+      },
+      {
+        "id": "inf_disguise",
+        "name": "Disfarce Infinito (Sempre no Máximo)",
+        "hotkey": "Ctrl+F11",
+        "type": "toggle",
+        "enabled": false,
+        "category": "Jogador",
+        "description": "Mantém o medidor de disfarce (Body Snatch) sempre no valor máximo, impedindo que o disfarce se esgote."
       }
     ],
     "ea_offer_id": null,
