@@ -1,0 +1,73 @@
+{
+  "id": "destroy_all_humans_2",
+  "title": "Destroy All Humans! 2 - Reprobed",
+  "steam_appid": 1266700,
+  "process_name": "DH2-Win64-Shipping.exe",
+  "version": "1.0.0",
+  "cover_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1266700/header.jpg",
+  "poster_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1266700/header.jpg",
+  "banner_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1266700/header.jpg",
+  "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
+  "dll_asset_name": "DestroyAllHumans2Mod.dll",
+  "sha256": "bypass",
+  "pipe_name": "\\\\.\\pipe\\DestroyAllHumans2_Trainer",
+  "cheats": [
+    {
+      "id": "inf_health",
+      "name": "Vida Infinita (Crypto)",
+      "hotkey": "NUMPAD 1",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Jogador",
+      "description": "Mantém a saúde do protagonista no valor máximo impedindo o dano."
+    },
+    {
+      "id": "one_hit_kill",
+      "name": "Morte com 1 Golpe (Inimigos)",
+      "hotkey": "NUMPAD 2",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Combate",
+      "description": "Elimina os inimigos instantaneamente."
+    },
+    {
+      "id": "jump_height",
+      "name": "Multiplicador de Altura do Pulo",
+      "hotkey": "Ctrl+F9",
+      "hotkeyUp": "Ctrl+F9",
+      "hotkeyDown": "Ctrl+Shift+F9",
+      "type": "stepper",
+      "value": 1,
+      "defaultValue": 1,
+      "min": 1,
+      "max": 9,
+      "step": 1,
+      "category": "Movimento",
+      "description": "Multiplica a altura do pulo do Crypto de 1 (700 normal) até 9 (6.300 máx seguro). Cada nível adiciona 700 de altura (1 = 700, 2 = 1400, ..., 9 = 6300)."
+    },
+    {
+      "id": "jetpack",
+      "name": "Jetpack Infinito",
+      "hotkey": "Ctrl+F10",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Movimento",
+      "description": "Impede que o combustível do jetpack seja consumido durante o voo."
+    },
+    {
+      "id": "inf_disguise",
+      "name": "Disfarce Infinito (Sempre no Máximo)",
+      "hotkey": "Ctrl+F11",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Jogador",
+      "description": "Mantém o medidor de disfarce (Body Snatch) sempre no valor máximo, impedindo que o disfarce se esgote."
+    }
+  ],
+  "ea_offer_id": null,
+  "epic_app_name": null,
+  "supported_platforms": [
+    "steam",
+    "epic"
+  ]
+}

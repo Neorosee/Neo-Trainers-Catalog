@@ -1,0 +1,63 @@
+{
+  "id": "jedi_fallen_order",
+  "title": "Star Wars Jedi: Fallen Order",
+  "steam_appid": 1172380,
+  "process_name": "FallenOrder.exe",
+  "version": "1.0.0",
+  "cover_url": "https://images.unsplash.com/photo-1547700055-b61cacebece9?q=80&w=800&auto=format&fit=crop",
+  "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
+  "dll_asset_name": "StarWarsJediFallenOrderMod.dll",
+  "sha256": "bypass",
+  "pipe_name": "\\\\.\\pipe\\StarWarsJediFallenOrder_Trainer",
+  "cheats": [
+    {
+      "id": "inf_health",
+      "name": "Vida Infinita",
+      "hotkey": "NUMPAD 1",
+      "enabled": false,
+      "category": "Jogador"
+    },
+    {
+      "id": "inf_force",
+      "name": "Força Infinita",
+      "hotkey": "NUMPAD 2",
+      "enabled": false,
+      "category": "Jogador"
+    },
+    {
+      "id": "inf_block",
+      "name": "Bloqueio Infinito",
+      "hotkey": "NUMPAD 3",
+      "enabled": false,
+      "category": "Jogador"
+    },
+    {
+      "id": "one_hit_kill",
+      "name": "Morte com 1 Golpe",
+      "hotkey": "NUMPAD 4",
+      "enabled": false,
+      "category": "Combate"
+    },
+    {
+      "id": "inf_stims",
+      "name": "Stims de Cura Infinitos",
+      "hotkey": "NUMPAD 5",
+      "enabled": false,
+      "category": "Inventário"
+    },
+    {
+      "id": "inf_skill_points",
+      "name": "Pontos de Habilidade Infinitos",
+      "hotkey": "NUMPAD 6",
+      "enabled": false,
+      "category": "Evolução"
+    }
+  ],
+  "ea_offer_id": "JediFallenOrder_Offer",
+  "epic_app_name": null,
+  "supported_platforms": [
+    "steam",
+    "ea",
+    "epic"
+  ]
+}

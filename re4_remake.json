@@ -1,0 +1,84 @@
+{
+  "id": "re4_remake",
+  "title": "Resident Evil 4 Remake",
+  "steam_appid": 2050650,
+  "process_name": "re4.exe",
+  "version": "1.0.0",
+  "cover_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg",
+  "poster_url": "https://cdn2.steamgriddb.com/thumb/8f4c40b8a1c97a8e5616f73e791e3e57.jpg",
+  "banner_url": "https://cdn2.steamgriddb.com/hero/0cba1db8229ef9f75bfdc28612140bbd.jpg",
+  "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
+  "dll_asset_name": "ResidentEvil4RemakeMod.dll",
+  "sha256": "bypass",
+  "pipe_name": "\\\\.\\pipe\\ResidentEvil4Remake_Trainer",
+  "cheats": [
+    {
+      "id": "god_mode",
+      "name": "Vida Infinita (Modo Deus)",
+      "hotkey": "NUMPAD 1",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Jogador",
+      "description": "Leon e Ashley nunca sofrem dano e permanecem com vida cheia"
+    },
+    {
+      "id": "inf_ammo",
+      "name": "Munição Infinita / Sem Recarga",
+      "hotkey": "NUMPAD 2",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Armas",
+      "description": "Atire indefinidamente sem consumir pentes e sem necessidade de recarregar"
+    },
+    {
+      "id": "no_spread",
+      "name": "Mira Perfeita (Sem Dispersão)",
+      "hotkey": "NUMPAD 3",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Armas",
+      "description": "A mira da arma permanece cravada no centro sem se abrir ao atirar ou andar"
+    },
+    {
+      "id": "no_recoil",
+      "name": "Sem Recuo",
+      "hotkey": "NUMPAD 4",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Armas",
+      "description": "Elimina o coice vertical e horizontal de todas as armas de fogo ao disparar"
+    },
+    {
+      "id": "pesetas",
+      "name": "Pesetas (Dinheiro)",
+      "hotkey": "NUMPAD 5",
+      "type": "action",
+      "actionText": "Definir Máximo",
+      "category": "Economia",
+      "description": "Define o saldo para 9.999.999 Pesetas ao abrir o inventário ou interagir com o Mercador"
+    },
+    {
+      "id": "save_pos",
+      "name": "Salvar Localização",
+      "hotkey": "SHIFT+F4",
+      "type": "action",
+      "actionText": "Solicitar",
+      "category": "Teletransportar",
+      "description": "Grava as coordenadas X, Y e Z atuais do Leon na memória"
+    },
+    {
+      "id": "teleport",
+      "name": "Teleporte para Posição Salva",
+      "hotkey": "SHIFT+F5",
+      "type": "action",
+      "actionText": "Solicitar",
+      "category": "Teletransportar",
+      "description": "Move o Leon instantaneamente de volta para a localização previamente guardada"
+    }
+  ],
+  "ea_offer_id": null,
+  "epic_app_name": null,
+  "supported_platforms": [
+    "steam"
+  ]
+}

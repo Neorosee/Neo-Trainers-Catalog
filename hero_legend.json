@@ -1,0 +1,67 @@
+{
+  "id": "hero_legend",
+  "title": "A Lenda do Herói",
+  "steam_appid": 389170,
+  "process_name": "DumaLegend.exe",
+  "version": "2.0.1",
+  "cover_url": "https://i.ibb.co/Jwhn7C5Y/Captura-de-tela-2026-09-23-075650.png",
+  "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
+  "dll_asset_name": "HeroLegendMod.dll",
+  "sha256": "bypass",
+  "pipe_name": "\\\\.\\pipe\\HeroLegend_Trainer",
+  "cheats": [
+    {
+      "id": "inf_hp",
+      "name": "HP / Vida Infinita",
+      "hotkey": "CTRL+1",
+      "enabled": false,
+      "category": "Combate",
+      "description": "Mantém o HP no valor máximo (0x0158)"
+    },
+    {
+      "id": "inf_mp",
+      "name": "MP / Energia Infinita",
+      "hotkey": "CTRL+2",
+      "enabled": false,
+      "category": "Combate",
+      "description": "Energia infinita para habilidades"
+    },
+    {
+      "id": "god_mode",
+      "name": "Modo Deus (Invulnerável)",
+      "hotkey": "CTRL+3",
+      "enabled": false,
+      "category": "Combate",
+      "description": "Trava contador de invulnerabilidade"
+    },
+    {
+      "id": "super_speed",
+      "name": "Super Velocidade (2x)",
+      "hotkey": "CTRL+4",
+      "enabled": false,
+      "category": "Movimentação",
+      "description": "Modificador de velocidade do herói"
+    },
+    {
+      "id": "one_hit_kill",
+      "name": "Morte com 1 Golpe",
+      "hotkey": "CTRL+5",
+      "enabled": false,
+      "category": "Combate",
+      "description": "Multiplicador de dano 999x"
+    },
+    {
+      "id": "gold_multiplier",
+      "name": "Multiplicador de Ouro",
+      "hotkey": "CTRL+6",
+      "enabled": false,
+      "category": "Economia",
+      "description": "Altera o endereço de ouro no save"
+    }
+  ],
+  "ea_offer_id": null,
+  "epic_app_name": null,
+  "supported_platforms": [
+    "steam"
+  ]
+}
