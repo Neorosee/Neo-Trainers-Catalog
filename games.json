@@ -951,6 +951,15 @@
         "description": "Elimina os inimigos instantaneamente."
       },
       {
+        "id": "infiniteray",
+        "name": "Munição Infinita / Calor Zero (Zap-O-Matic)",
+        "hotkey": "NUMPAD 3",
+        "type": "toggle",
+        "enabled": false,
+        "category": "Armas",
+        "description": "Impede o aquecimento e o consumo de energia da arma de raio do Crypto."
+      },
+      {
         "id": "jump_height",
         "name": "Multiplicador de Altura do Pulo",
         "hotkey": "Ctrl+F9",
