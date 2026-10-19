@@ -1,0 +1,46 @@
+{
+  "id": "pragmata",
+  "title": "PRAGMATA",
+  "steam_appid": 1000001,
+  "process_name": "Pragmata.exe",
+  "version": "1.0.0",
+  "cover_url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop",
+  "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
+  "dll_asset_name": "PragmataMod.dll",
+  "sha256": "bypass",
+  "pipe_name": "\\\\.\\pipe\\Pragmata_Trainer",
+  "cheats": [
+    {
+      "id": "inf_propulsor",
+      "name": "Propulsor Infinito",
+      "hotkey": "F1",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Movimento",
+      "description": "Propulsor ilimitado para esquivas e saltos aéreos sem consumo de energia"
+    },
+    {
+      "id": "inf_ammo",
+      "name": "Munição Infinita",
+      "hotkey": "F2",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Armas",
+      "description": "Dispare continuamente sem esgotar o pente ou a reserva de munição"
+    },
+    {
+      "id": "no_recoil",
+      "name": "Sem Recuo",
+      "hotkey": "F3",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Armas",
+      "description": "Elimina todo o coice e espalhamento das armas de fogo"
+    }
+  ],
+  "ea_offer_id": null,
+  "epic_app_name": null,
+  "supported_platforms": [
+    "steam"
+  ]
+}
