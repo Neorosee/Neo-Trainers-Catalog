@@ -2,76 +2,113 @@
   {
     "id": "gta_vc",
     "title": "Grand Theft Auto: Vice City Definitive Edition",
-    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/gta_vc.json"
+    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/gta_vc.json",
+    "metadata_version": 2,
+    "updated_at": "2026-10-20T00:46:24.479Z"
   },
   {
     "id": "gta_sa",
     "title": "Grand Theft Auto: San Andreas Definitive Edition",
-    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/gta_sa.json"
+    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/gta_sa.json",
+    "metadata_version": 2,
+    "updated_at": "2026-10-20T00:46:24.479Z"
   },
   {
     "id": "dying_light_beast",
     "title": "Dying Light: The Beast",
-    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/dying_light_beast.json"
+    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/dying_light_beast.json",
+    "metadata_version": 2,
+    "updated_at": "2026-10-20T00:46:24.479Z"
   },
   {
     "id": "jedi_survivor",
     "title": "Star Wars Jedi: Survivor",
-    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/jedi_survivor.json"
+    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/jedi_survivor.json",
+    "metadata_version": 2,
+    "updated_at": "2026-10-20T00:46:24.479Z"
   },
   {
     "id": "days_gone",
     "title": "Days Gone",
-    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/days_gone.json"
+    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/days_gone.json",
+    "metadata_version": 2,
+    "updated_at": "2026-10-20T00:46:24.479Z"
   },
   {
     "id": "control_resonant",
     "title": "Control Resonant",
-    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/control_resonant.json"
+    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/control_resonant.json",
+    "metadata_version": 2,
+    "updated_at": "2026-10-20T00:46:24.479Z"
   },
   {
     "id": "hero_legend",
     "title": "A Lenda do Herói",
-    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/hero_legend.json"
+    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/hero_legend.json",
+    "metadata_version": 2,
+    "updated_at": "2026-10-20T00:46:24.479Z"
   },
   {
     "id": "pragmata",
     "title": "PRAGMATA",
-    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/pragmata.json"
+    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/pragmata.json",
+    "metadata_version": 2,
+    "updated_at": "2026-10-20T00:46:24.479Z"
   },
   {
     "id": "star_wars_outlaws",
     "title": "Star Wars Outlaws",
-    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/star_wars_outlaws.json"
+    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/star_wars_outlaws.json",
+    "metadata_version": 2,
+    "updated_at": "2026-10-20T00:46:24.479Z"
   },
   {
     "id": "stalker_2",
     "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/stalker_2.json"
+    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/stalker_2.json",
+    "metadata_version": 2,
+    "updated_at": "2026-10-20T00:46:24.479Z"
   },
   {
     "id": "jedi_fallen_order",
     "title": "Star Wars Jedi: Fallen Order",
-    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/jedi_fallen_order.json"
+    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/jedi_fallen_order.json",
+    "metadata_version": 2,
+    "updated_at": "2026-10-20T00:46:24.479Z"
   },
   {
     "id": "re4_remake",
     "title": "Resident Evil 4 Remake",
-    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/re4_remake.json"
+    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/re4_remake.json",
+    "metadata_version": 2,
+    "updated_at": "2026-10-20T00:46:24.479Z"
   },
   {
     "id": "sand_land",
     "title": "SAND LAND",
-    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/sand_land.json"
+    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/sand_land.json",
+    "metadata_version": 2,
+    "updated_at": "2026-10-20T00:46:24.479Z"
   },
   {
     "id": "atomfall",
     "title": "Atomfall",
-    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/atomfall.json"
+    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/atomfall.json",
+    "metadata_version": 2,
+    "updated_at": "2026-10-20T00:46:24.479Z"
   },
   {
     "id": "destroy_all_humans_2",
     "title": "Destroy All Humans! 2 - Reprobed",
-    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/destroy_all_humans_2.json"
+    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/destroy_all_humans_2.json",
+    "metadata_version": 2,
+    "updated_at": "2026-10-20T00:46:24.479Z"
+  },
+  {
+    "id": "destroy_all_humans",
+    "title": "Destroy All Humans!",
+    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/destroy_all_humans.json",
+    "metadata_version": 2,
+    "updated_at": "2026-10-20T00:46:24.479Z"
   }
 ]
