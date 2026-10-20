@@ -73,10 +73,5 @@
     "id": "destroy_all_humans_2",
     "title": "Destroy All Humans! 2 - Reprobed",
     "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/destroy_all_humans_2.json"
-  },
-  {
-    "id": "destroy_all_humans",
-    "title": "Destroy All Humans!",
-    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/destroy_all_humans.json"
   }
 ]
