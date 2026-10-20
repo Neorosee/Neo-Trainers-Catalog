@@ -4,7 +4,7 @@
   "steam_appid": 1547000,
   "process_name": "ViceCity.exe",
   "version": "1.0.0",
-  "cover_url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop",
+  "cover_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/assets/posters/gta_vc.jpg",
   "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
   "dll_asset_name": "GTAVCDE.dll",
   "sha256": "bypass",
@@ -31,5 +31,6 @@
   "supported_platforms": [
     "steam",
     "epic"
-  ]
+  ],
+  "poster_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/assets/posters/gta_vc.jpg"
 }
