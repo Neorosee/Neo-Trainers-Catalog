@@ -1,37 +1,37 @@
 {
-  "id": "gta_vc",
-  "title": "Grand Theft Auto: Vice City Definitive Edition",
-  "steam_appid": 1547000,
-  "process_name": "ViceCity.exe",
-  "version": "1.0.0",
-  "cover_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/assets/posters/gta_vc_52396280.jpg",
-  "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
-  "dll_asset_name": "GTAVCDE.dll",
-  "sha256": "bypass",
-  "pipe_name": "\\\\.\\pipe\\GTAViceCityDefinitive_Trainer",
-  "cheats": [
-    {
-      "id": "wanted_level",
-      "name": "Nível de Procurado (Estrelas)",
-      "hotkey": "NUMPAD 1",
-      "hotkeyUp": "Shift+F1",
-      "hotkeyDown": "Ctrl+F1",
-      "type": "slider",
-      "value": -1,
-      "defaultValue": -1,
-      "min": -1,
-      "max": 5,
-      "step": 1,
-      "category": "Mundo",
-      "description": "Defina de -1 a 5 (-1 = Modo Padrão do Jogo/IA Livre, 0 = Nunca Procurado, 1 a 5 = Travar Estrelas)"
-    }
-  ],
-  "ea_offer_id": null,
-  "epic_app_name": null,
-  "supported_platforms": [
-    "steam",
-    "epic"
-  ],
-  "poster_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/assets/posters/gta_vc_52396280.jpg",
-  "banner_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/assets/banners/gta_vc_58d0c581.jpg"
+    "id":  "gta_vc",
+    "title":  "Grand Theft Auto: Vice City Definitive Edition",
+    "steam_appid":  1547000,
+    "process_name":  "ViceCity.exe",
+    "version":  "1.0.0",
+    "cover_url":  "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/assets/posters/gta_vc_52396280.jpg",
+    "dll_url":  "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
+    "dll_asset_name":  "GTAVCDE.dll",
+    "sha256":  "bypass",
+    "pipe_name":  "\\\\.\\pipe\\GTAViceCityDefinitive_Trainer",
+    "cheats":  [
+                   {
+                       "id":  "wanted_level",
+                       "name":  "Nível de Procurado (Estrelas)",
+                       "hotkey":  "NUMPAD 1",
+                       "hotkeyUp":  "Shift+F1",
+                       "hotkeyDown":  "Ctrl+F1",
+                       "type":  "slider",
+                       "value":  -1,
+                       "defaultValue":  -1,
+                       "min":  -1,
+                       "max":  5,
+                       "step":  1,
+                       "category":  "Mundo",
+                       "description":  "Defina de -1 a 5 (-1 = Modo Padrão do Jogo/IA Livre, 0 = Nunca Procurado, 1 a 5 = Travar Estrelas)"
+                   }
+               ],
+    "ea_offer_id":  null,
+    "epic_app_name":  null,
+    "supported_platforms":  [
+                                "steam",
+                                "epic"
+                            ],
+    "poster_url":  "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/assets/posters/gta_vc_52396280.jpg",
+    "banner_url":  null
 }
