@@ -104,6 +104,17 @@
     "metadata_version": 2,
     "updated_at": "2026-10-20T00:46:24.479Z"
   },
+
+  {
+    "id": "valor_mortis",
+    "title": "Valor Mortis",
+    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/valor_mortis.json",
+    "metadata_version": 2,
+    "updated_at": "2026-10-24T00:00:00.000Z"
+  },
+
+
+  
   {
     "id": "destroy_all_humans",
     "title": "Destroy All Humans!",
