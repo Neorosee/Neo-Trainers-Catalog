@@ -1,0 +1,42 @@
+{
+  "id": "valor_mortis",
+  "title": "Valor Mortis",
+  "steam_appid": null,
+  "process_name": "ValorMortis-Win64-Shipping.exe",
+  "version": "1.0.0",
+  "cover_url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop",
+  "poster_url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop",
+  "banner_url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop",
+  "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
+  "dll_asset_name": "ValorMortisMod.dll",
+  "sha256": "bypass",
+  "pipe_name": "\\\\.\\pipe\\ValorMortis_Trainer",
+  "cheats": [
+    {
+      "id": "inf_health",
+      "name": "Vida Infinita",
+      "hotkey": "NUMPAD 1",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Jogador",
+      "description": "Mantém a vida do personagem no valor máximo impedindo o dano."
+    },
+    {
+      "id": "inf_ammo",
+      "name": "Munição Infinita",
+      "hotkey": "NUMPAD 2",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Combate",
+      "description": "Impede o consumo de munição nas armas de fogo."
+    }
+  ],
+  "ea_offer_id": null,
+  "epic_app_name": null,
+  "supported_platforms": [
+    "steam",
+    "epic"
+  ],
+  "metadata_version": 2,
+  "updated_at": "2026-10-24T00:00:00.000Z"
+}
