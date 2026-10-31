@@ -1,0 +1,42 @@
+{
+  "id": "avatar_pandora",
+  "title": "Avatar: Frontiers of Pandora",
+  "steam_appid": null,
+  "process_name": "afop.exe",
+  "version": "1.0.0",
+  "cover_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop",
+  "poster_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop",
+  "banner_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop",
+  "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
+  "dll_asset_name": "AvatarPandoraMod.dll",
+  "sha256": "bypass",
+  "pipe_name": "\\\\.\\pipe\\AvatarPandora_Trainer",
+  "cheats": [
+    {
+      "id": "save_location",
+      "name": "Salvar Localização",
+      "hotkey": "NUMPAD 8",
+      "type": "button",
+      "enabled": false,
+      "category": "Teleport",
+      "description": "Salva as coordenadas atuais (X, Z, Y) do jogador no mundo."
+    },
+    {
+      "id": "teleport",
+      "name": "Teleportar",
+      "hotkey": "NUMPAD 9",
+      "type": "button",
+      "enabled": false,
+      "category": "Teleport",
+      "description": "Teleporta o jogador instantaneamente para a localização salva anteriormente."
+    }
+  ],
+  "ea_offer_id": null,
+  "epic_app_name": null,
+  "supported_platforms": [
+    "steam",
+    "epic"
+  ],
+  "metadata_version": 2,
+  "updated_at": "2026-10-31T00:00:00.000Z"
+}
