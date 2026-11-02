@@ -29,6 +29,30 @@
       "enabled": false,
       "category": "Itens",
       "description": "Mantém 100 unidades dos consumíveis e itens ao interagir no inventário."
+    },
+    {
+      "id": "soul_multiplier",
+      "name": "Multiplicador de Almas Vermelhas",
+      "hotkey": "NUMPAD 3",
+      "hotkeyUp": "Ctrl+F1",
+      "hotkeyDown": "Ctrl+Shift+F1",
+      "type": "stepper",
+      "value": 5,
+      "defaultValue": 5,
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "category": "Almas",
+      "description": "Multiplica o ganho de almas vermelhas absorvidas pelo jogador (ex: 5x, 10x, 25x)."
+    },
+    {
+      "id": "add_red_souls",
+      "name": "Adicionar 50.000 Almas Vermelhas",
+      "hotkey": "NUMPAD 4",
+      "type": "action",
+      "actionText": "Adicionar",
+      "category": "Almas",
+      "description": "Injeta 50.000 almas vermelhas de forma segura no menu do jogo."
     }
   ],
   "ea_offer_id": null,
