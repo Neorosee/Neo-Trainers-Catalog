@@ -1,0 +1,41 @@
+{
+  "id": "onimusha_wots",
+  "title": "Onimusha: Warlords",
+  "steam_appid": 761620,
+  "process_name": "OnimushaWotS.exe",
+  "version": "1.0.0",
+  "cover_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/761620/header.jpg",
+  "poster_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/761620/header.jpg",
+  "banner_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/761620/header.jpg",
+  "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
+  "dll_asset_name": "OnimushaWotSMod.dll",
+  "sha256": "bypass",
+  "pipe_name": "\\\\.\\pipe\\OnimushaWotS_Trainer",
+  "cheats": [
+    {
+      "id": "god_mode",
+      "name": "Modo Deus / Ignora Ataques",
+      "hotkey": "NUMPAD 1",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Jogador",
+      "description": "Ignora e anula qualquer dano ou ataque inimigo recebido."
+    },
+    {
+      "id": "inf_consumables",
+      "name": "Consumíveis Infinitos (100x)",
+      "hotkey": "NUMPAD 2",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Itens",
+      "description": "Mantém 100 unidades dos consumíveis e itens ao interagir no inventário."
+    }
+  ],
+  "ea_offer_id": null,
+  "epic_app_name": null,
+  "supported_platforms": [
+    "steam"
+  ],
+  "metadata_version": 2,
+  "updated_at": "2026-11-02T00:00:00.000Z"
+}
