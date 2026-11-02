@@ -31,6 +31,32 @@
       "description": "Mantém 100 unidades dos consumíveis e itens ao interagir no inventário."
     },
     {
+      "id": "set_item_on_hand",
+      "name": "Edit Selected Item (On Hand)",
+      "hotkey": "Ctrl+NUMPAD 4",
+      "type": "action_input",
+      "actionText": "APPLY",
+      "value": 50,
+      "defaultValue": 50,
+      "min": 1,
+      "max": 999,
+      "category": "Itens",
+      "description": "Modifica a quantidade do item selecionado em mãos. Abra o menu/inventário e passe o cursor sobre o item antes de aplicar."
+    },
+    {
+      "id": "set_item_in_storage",
+      "name": "Edit Selected Item (In Storage)",
+      "hotkey": "Ctrl+NUMPAD 5",
+      "type": "action_input",
+      "actionText": "APPLY",
+      "value": 500,
+      "defaultValue": 500,
+      "min": 1,
+      "max": 9999,
+      "category": "Itens",
+      "description": "Modifica a quantidade do item selecionado no armazenamento/baú. Abra o menu/inventário e passe o cursor sobre o item antes de aplicar."
+    },
+    {
       "id": "soul_multiplier",
       "name": "Multiplicador de Almas Vermelhas",
       "hotkey": "NUMPAD 3",
@@ -48,7 +74,7 @@
     {
       "id": "add_red_souls",
       "name": "Adicionar 50.000 Almas Vermelhas",
-      "hotkey": "NUMPAD 4",
+      "hotkey": "NUMPAD 6",
       "type": "action",
       "actionText": "Adicionar",
       "category": "Almas",
@@ -60,6 +86,6 @@
   "supported_platforms": [
     "steam"
   ],
-  "metadata_version": 2,
-  "updated_at": "2026-11-02T00:00:00.000Z"
+  "metadata_version": 3,
+  "updated_at": "2026-11-02T12:00:00.000Z"
 }
