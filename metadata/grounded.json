@@ -20,6 +20,15 @@
       "enabled": false,
       "category": "Movimentação",
       "description": "Permite saltar no ar infinitamente sem limites."
+    },
+    {
+      "id": "inf_stamina",
+      "name": "Stamina Infinita (Infinite Stamina)",
+      "hotkey": "NUMPAD 2",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Jogador",
+      "description": "Mantém a stamina sempre no máximo impedindo o esgotamento ao correr e atacar."
     }
   ],
   "ea_offer_id": null,
@@ -27,6 +36,6 @@
   "supported_platforms": [
     "steam"
   ],
-  "metadata_version": 1,
-  "updated_at": "2026-11-04T23:05:00.000Z"
+  "metadata_version": 2,
+  "updated_at": "2026-11-05T08:35:00.000Z"
 }
