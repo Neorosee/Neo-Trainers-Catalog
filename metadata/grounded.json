@@ -1,0 +1,32 @@
+{
+  "id": "grounded",
+  "title": "Grounded",
+  "steam_appid": 962130,
+  "process_name": "Maine-Win64-Shipping.exe",
+  "version": "1.0.0",
+  "cover_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/962130/library_600x900_2x.jpg",
+  "poster_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/962130/library_600x900_2x.jpg",
+  "banner_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/962130/header.jpg",
+  "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
+  "dll_asset_name": "GroundedMod.dll",
+  "sha256": "bypass",
+  "pipe_name": "\\\\.\\pipe\\Grounded_Trainer",
+  "cheats": [
+    {
+      "id": "inf_jump",
+      "name": "Pulo Infinito (Infinite Jump)",
+      "hotkey": "NUMPAD 1",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Movimentação",
+      "description": "Permite saltar no ar infinitamente sem limites."
+    }
+  ],
+  "ea_offer_id": null,
+  "epic_app_name": null,
+  "supported_platforms": [
+    "steam"
+  ],
+  "metadata_version": 1,
+  "updated_at": "2026-11-04T23:05:00.000Z"
+}
