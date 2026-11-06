@@ -1,0 +1,42 @@
+{
+  "id": "tlou_part1",
+  "title": "The Last of Us Part I",
+  "steam_appid": 1888930,
+  "process_name": "tlou-i.exe",
+  "version": "1.0.0",
+  "cover_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1888930/library_600x900_2x.jpg",
+  "poster_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1888930/library_600x900_2x.jpg",
+  "banner_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1888930/header.jpg",
+  "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
+  "dll_asset_name": "TheLastofUsPart1Mod.dll",
+  "sha256": "bypass",
+  "pipe_name": "\\\\.\\pipe\\TheLastofUsPart1_Trainer",
+  "cheats": [
+    {
+      "id": "inf_ammo",
+      "name": "Munição Infinita (Infinite Ammo)",
+      "hotkey": "NUMPAD 1",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Combate",
+      "description": "Mantém a munição em reserva infinita (9999) impedindo que acabe ao disparar."
+    },
+    {
+      "id": "no_reload",
+      "name": "Sem Recarga (No Reload)",
+      "hotkey": "NUMPAD 2",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Combate",
+      "description": "Mantém o pente da arma sempre cheio (99 munições no pente) sem necessidade de recarregar."
+    }
+  ],
+  "ea_offer_id": null,
+  "epic_app_name": null,
+  "supported_platforms": [
+    "steam",
+    "epic"
+  ],
+  "metadata_version": 1,
+  "updated_at": "2026-11-06T17:40:00.000Z"
+}
