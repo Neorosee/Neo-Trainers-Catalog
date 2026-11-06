@@ -29,6 +29,24 @@
       "enabled": false,
       "category": "Jogador",
       "description": "Mantém a stamina sempre no máximo impedindo o esgotamento ao correr e atacar."
+    },
+    {
+      "id": "inf_oxygen",
+      "name": "Oxigênio Infinito (Infinite Oxygen)",
+      "hotkey": "NUMPAD 3",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Jogador",
+      "description": "Mantém o oxigênio sempre cheio ao mergulhar ou explorar áreas aquáticas."
+    },
+    {
+      "id": "inf_durability",
+      "name": "Durabilidade Infinita (Infinite Weapon Durability)",
+      "hotkey": "NUMPAD 4",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Itens",
+      "description": "Impede o desgaste e quebra de armas e ferramentas."
     }
   ],
   "ea_offer_id": null,
@@ -36,6 +54,6 @@
   "supported_platforms": [
     "steam"
   ],
-  "metadata_version": 2,
-  "updated_at": "2026-11-05T08:35:00.000Z"
+  "metadata_version": 3,
+  "updated_at": "2026-11-05T21:45:00.000Z"
 }
