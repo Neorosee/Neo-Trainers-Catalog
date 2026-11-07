@@ -14,21 +14,21 @@
     "cheats":  [
                    {
                        "id":  "inf_health",
-                       "name":  "Vida Infinita (Crypto)",
+                       "name":  "Vida Infinita",
                        "hotkey":  "NUMPAD 1",
                        "type":  "toggle",
                        "enabled":  false,
                        "category":  "Jogador",
-                       "description":  "Mantém a saúde do protagonista no valor máximo impedindo o dano."
+                       "description":  ""
                    },
                    {
                        "id":  "one_hit_kill",
-                       "name":  "Morte com 1 Golpe (Inimigos)",
+                       "name":  "Morte com Um Golpe",
                        "hotkey":  "NUMPAD 2",
                        "type":  "toggle",
                        "enabled":  false,
                        "category":  "Combate",
-                       "description":  "Elimina os inimigos instantaneamente."
+                       "description":  ""
                    },
                    {
                        "id":  "jump_height",
