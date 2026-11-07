@@ -22,155 +22,44 @@
       "description": "Ignora e anula qualquer dano ou ataque inimigo recebido."
     },
     {
-      "id": "unlimited_health",
-      "name": "Vida Infinita (Unlimited Health)",
-      "hotkey": "NUMPAD 2",
-      "type": "toggle",
-      "enabled": false,
-      "category": "Jogador",
-      "description": "Mantém a barra de vida (HP) do personagem sempre no valor máximo."
-    },
-    {
-      "id": "unlimited_stamina",
-      "name": "Stamina Infinita (Unlimited Stamina)",
-      "hotkey": "NUMPAD 3",
-      "type": "toggle",
-      "enabled": false,
-      "category": "Jogador",
-      "description": "Mantém o medidor de vigor e stamina sempre cheio para ações ilimitadas."
-    },
-    {
-      "id": "max_oni_gauge",
-      "name": "Barra Oni no Máximo (Max Oni Gauge)",
-      "hotkey": "NUMPAD 4",
-      "type": "toggle",
-      "enabled": false,
-      "category": "Jogador",
-      "description": "Mantém a barra de poder Oni no valor máximo para usar magias e habilidades especiais continuamente."
-    },
-    {
-      "id": "fast_bow_charge",
-      "name": "Carga Rápida do Arco (Fast Bow Charge)",
-      "hotkey": "NUMPAD 5",
-      "type": "toggle",
-      "enabled": false,
-      "category": "Combate",
-      "description": "Acelera instantaneamente o carregamento dos tiros de arco e flecha ao disparar."
-    },
-    {
-      "id": "unlimited_buffs",
-      "name": "Duração de Buffs Infinita",
-      "hotkey": "NUMPAD 6",
-      "type": "toggle",
-      "enabled": false,
-      "category": "Jogador",
-      "description": "Impede que os efeitos de itens de melhoria e buffs temporários expirem."
-    },
-    {
-      "id": "one_hit_kill",
-      "name": "Super Dano / One-Hit Kills",
-      "hotkey": "NUMPAD 7",
-      "type": "toggle",
-      "enabled": false,
-      "category": "Combate",
-      "description": "Qualquer golpe do jogador causa 999.999 de dano, derrotando inimigos com um único ataque."
-    },
-    {
-      "id": "super_break",
-      "name": "Super Quebra de Postura / One Hit Breaks",
-      "hotkey": "NUMPAD 8",
-      "type": "toggle",
-      "enabled": false,
-      "category": "Combate",
-      "description": "Quebra instantaneamente a defesa e postura (stamina) dos inimigos ao atingi-los."
-    },
-    {
       "id": "inf_consumables",
       "name": "Consumíveis Infinitos (100x)",
-      "hotkey": "NUMPAD 9",
+      "hotkey": "NUMPAD 2",
       "type": "toggle",
       "enabled": false,
       "category": "Itens",
       "description": "Mantém 100 unidades dos consumíveis e itens ao interagir no inventário."
     },
     {
-      "id": "free_enhance_equip",
-      "name": "Melhoria de Equipamento Grátis",
-      "hotkey": "Ctrl+NUMPAD 1",
-      "type": "toggle",
-      "enabled": false,
-      "category": "Melhorias",
-      "description": "Remove todos os requisitos de materiais e custos para aprimorar equipamentos."
-    },
-    {
-      "id": "free_enhance_ability",
-      "name": "Melhoria de Habilidades Grátis",
-      "hotkey": "Ctrl+NUMPAD 2",
-      "type": "toggle",
-      "enabled": false,
-      "category": "Melhorias",
-      "description": "Remove todos os requisitos de custo para aprimorar e evoluir habilidades."
-    },
-    {
-      "id": "damage_multiplier",
-      "name": "Multiplicador de Dano (Ataque)",
-      "hotkey": "Ctrl+NUMPAD 3",
-      "hotkeyUp": "Ctrl+F2",
-      "hotkeyDown": "Ctrl+Shift+F2",
-      "type": "stepper",
-      "value": 2,
-      "defaultValue": 2,
-      "min": 1,
-      "max": 100,
-      "step": 1,
-      "category": "Combate",
-      "description": "Multiplica o dano causado pelos seus ataques aos inimigos (ex: 2x, 5x, 10x)."
-    },
-    {
-      "id": "defense_multiplier",
-      "name": "Multiplicador de Defesa (Resistência)",
+      "id": "set_item_on_hand",
+      "name": "Edit Selected Item (On Hand)",
       "hotkey": "Ctrl+NUMPAD 4",
-      "hotkeyUp": "Ctrl+F3",
-      "hotkeyDown": "Ctrl+Shift+F3",
-      "type": "stepper",
-      "value": 2,
-      "defaultValue": 2,
+      "type": "action_input",
+      "actionText": "APPLY",
+      "value": 50,
+      "defaultValue": 50,
       "min": 1,
-      "max": 100,
-      "step": 1,
-      "category": "Combate",
-      "description": "Reduz o dano recebido pelo jogador dividindo pelo fator escolhido (ex: 2x reduz o dano pela metade, 5x reduz 80%)."
+      "max": 999,
+      "category": "Itens",
+      "description": "Modifica a quantidade do item selecionado em mãos. Abra o menu/inventário e posicione o cursor sobre o item antes de clicar em APPLY."
     },
     {
-      "id": "stamina_damage_multiplier",
-      "name": "Multiplicador de Dano de Stamina",
+      "id": "set_item_in_storage",
+      "name": "Edit Selected Item (In Storage)",
       "hotkey": "Ctrl+NUMPAD 5",
-      "type": "stepper",
-      "value": 2,
-      "defaultValue": 2,
+      "type": "action_input",
+      "actionText": "APPLY",
+      "value": 500,
+      "defaultValue": 500,
       "min": 1,
-      "max": 100,
-      "step": 1,
-      "category": "Combate",
-      "description": "Multiplica o dano de postura/stamina aplicado aos inimigos pelos seus golpes."
-    },
-    {
-      "id": "stamina_defense_multiplier",
-      "name": "Multiplicador de Defesa de Stamina",
-      "hotkey": "Ctrl+NUMPAD 6",
-      "type": "stepper",
-      "value": 2,
-      "defaultValue": 2,
-      "min": 1,
-      "max": 100,
-      "step": 1,
-      "category": "Combate",
-      "description": "Reduz o consumo e dano de postura/stamina recebido pelo jogador ao bloquear ou ser golpeado."
+      "max": 9999,
+      "category": "Itens",
+      "description": "Modifica a quantidade do item selecionado no armazenamento/baú. Abra o menu/inventário e posicione o cursor sobre o item antes de clicar em APPLY."
     },
     {
       "id": "soul_multiplier",
       "name": "Multiplicador de Almas Vermelhas",
-      "hotkey": "Ctrl+NUMPAD 7",
+      "hotkey": "NUMPAD 3",
       "hotkeyUp": "Ctrl+F1",
       "hotkeyDown": "Ctrl+Shift+F1",
       "type": "stepper",
@@ -185,7 +74,7 @@
     {
       "id": "set_red_souls",
       "name": "Edit Red Souls",
-      "hotkey": "Ctrl+NUMPAD 8",
+      "hotkey": "NUMPAD 6",
       "type": "action_input",
       "actionText": "APPLY",
       "value": 50000,
@@ -193,33 +82,37 @@
       "min": 0,
       "max": 999999,
       "category": "Almas",
-      "description": "Define a quantidade exata de almas vermelhas. Digite o valor desejado e clique em APPLY."
+      "description": "Define a quantidade exata de almas vermelhas. Digite o valor desejado e clique em APPLY ou pressione NUMPAD 6."
     },
     {
-      "id": "set_item_on_hand",
-      "name": "Edit Selected Item (On Hand)",
-      "hotkey": "Ctrl+NUMPAD 9",
-      "type": "action_input",
-      "actionText": "APPLY",
-      "value": 50,
-      "defaultValue": 50,
+      "id": "damage_multiplier",
+      "name": "Multiplicador de Dano (Ataque)",
+      "hotkey": "NUMPAD 7",
+      "hotkeyUp": "Ctrl+F2",
+      "hotkeyDown": "Ctrl+Shift+F2",
+      "type": "stepper",
+      "value": 2,
+      "defaultValue": 2,
       "min": 1,
-      "max": 999,
-      "category": "Itens",
-      "description": "Modifica a quantidade do item selecionado em mãos. Abra o menu/inventário e posicione o cursor sobre o item antes de clicar em APPLY."
+      "max": 100,
+      "step": 1,
+      "category": "Combate",
+      "description": "Multiplica o dano causado pelos seus ataques aos inimigos (ex: 2x, 5x, 10x)."
     },
     {
-      "id": "set_item_in_storage",
-      "name": "Edit Selected Item (In Storage)",
-      "hotkey": "Ctrl+F1",
-      "type": "action_input",
-      "actionText": "APPLY",
-      "value": 500,
-      "defaultValue": 500,
+      "id": "defense_multiplier",
+      "name": "Multiplicador de Defesa (Resistência)",
+      "hotkey": "NUMPAD 8",
+      "hotkeyUp": "Ctrl+F3",
+      "hotkeyDown": "Ctrl+Shift+F3",
+      "type": "stepper",
+      "value": 2,
+      "defaultValue": 2,
       "min": 1,
-      "max": 9999,
-      "category": "Itens",
-      "description": "Modifica a quantidade do item selecionado no armazenamento/baú. Abra o menu/inventário e posicione o cursor sobre o item antes de clicar em APPLY."
+      "max": 100,
+      "step": 1,
+      "category": "Combate",
+      "description": "Reduz o dano recebido pelo jogador dividindo pelo fator escolhido (ex: 2x reduz o dano pela metade, 5x reduz 80%)."
     }
   ],
   "ea_offer_id": null,
@@ -227,6 +120,6 @@
   "supported_platforms": [
     "steam"
   ],
-  "metadata_version": 6,
-  "updated_at": "2026-11-07T00:00:00.000Z"
+  "metadata_version": 5,
+  "updated_at": "2026-11-03T23:30:00.000Z"
 }
