@@ -1,0 +1,32 @@
+{
+  "id": "007_first_light",
+  "title": "007 First Light",
+  "steam_appid": 3768760,
+  "process_name": "007FirstLight.exe",
+  "version": "1.0.0",
+  "cover_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3768760/header.jpg",
+  "poster_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3768760/header.jpg",
+  "banner_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3768760/header.jpg",
+  "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
+  "dll_asset_name": "007FirstLightMod.dll",
+  "sha256": "bypass",
+  "pipe_name": "\\\\.\\pipe\\007FirstLight_Trainer",
+  "cheats": [
+    {
+      "id": "no_reload",
+      "name": "Sem Recarga",
+      "hotkey": "NUMPAD 1",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Armas",
+      "description": "Mantém o pente da arma sempre carregado com 99 disparos sem precisar recarregar."
+    }
+  ],
+  "ea_offer_id": null,
+  "epic_app_name": null,
+  "supported_platforms": [
+    "steam"
+  ],
+  "metadata_version": 1,
+  "updated_at": "2026-11-07T14:30:00.000Z"
+}
