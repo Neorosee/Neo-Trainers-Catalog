@@ -1,0 +1,32 @@
+{
+  "id": "gears_of_war_eday",
+  "title": "Gears of War: E-Day",
+  "steam_appid": 3010850,
+  "process_name": "GoWEDay-Steam.exe",
+  "version": "1.0.0",
+  "cover_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3010850/library_600x900_2x.jpg",
+  "poster_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3010850/library_600x900_2x.jpg",
+  "banner_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3010850/header.jpg",
+  "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
+  "dll_asset_name": "GearsofWarEDayMod.dll",
+  "sha256": "bypass",
+  "pipe_name": "\\\\.\\pipe\\GearsofWarEDay_Trainer",
+  "cheats": [
+    {
+      "id": "inf_health",
+      "name": "Vida Infinita",
+      "hotkey": "NUMPAD 1",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Jogador",
+      "description": "Mantém a vida do personagem sempre cheia (100000) impedindo que morra em combate."
+    }
+  ],
+  "ea_offer_id": null,
+  "epic_app_name": null,
+  "supported_platforms": [
+    "steam"
+  ],
+  "metadata_version": 1,
+  "updated_at": "2026-11-11T11:45:00.000Z"
+}
