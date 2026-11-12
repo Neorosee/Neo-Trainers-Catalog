@@ -4,53 +4,27 @@
   "steam_appid": 2842040,
   "process_name": "Outlaws.exe",
   "version": "1.0.0",
-  "cover_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=800&auto=format&fit=crop",
+  "cover_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2842040/library_600x900_2x.jpg",
+  "poster_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2842040/library_600x900_2x.jpg",
+  "banner_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2842040/header.jpg",
   "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
-  "dll_asset_name": "OutlawsMod.dll",
+  "dll_asset_name": "StarWarsOutlawsMod.dll",
   "sha256": "bypass",
-  "pipe_name": "\\\\.\\pipe\\Outlaws_Trainer",
+  "pipe_name": "\\\\.\\pipe\\StarWarsOutlaws_Trainer",
   "cheats": [
     {
-      "id": "inf_health",
-      "name": "Vida Infinita (Kay Vess)",
-      "hotkey": "NUMPAD 1",
-      "enabled": false,
-      "category": "Jogador"
-    },
-    {
-      "id": "inf_blaster_energy",
-      "name": "Blaster Sem Superaquecer",
-      "hotkey": "NUMPAD 2",
-      "enabled": false,
-      "category": "Armas"
-    },
-    {
-      "id": "one_hit_kill",
-      "name": "Morte com 1 Golpe",
-      "hotkey": "NUMPAD 3",
-      "enabled": false,
-      "category": "Combate"
-    },
-    {
-      "id": "inf_credits",
-      "name": "Créditos Galácticos Infinitos",
-      "hotkey": "NUMPAD 4",
-      "enabled": false,
-      "category": "Economia"
-    },
-    {
-      "id": "max_reputation",
-      "name": "Reputação Máxima com Todos os Sindicatos",
-      "hotkey": "NUMPAD 5",
-      "enabled": false,
-      "category": "Fações"
-    },
-    {
-      "id": "ghost_stealth",
-      "name": "Furtividade Total / Invisibilidade",
-      "hotkey": "NUMPAD 6",
-      "enabled": false,
-      "category": "Jogador"
+      "id": "jump_multiplier",
+      "name": "Multiplicador de Pulo (Jump Multiplier)",
+      "type": "stepper",
+      "value": 1,
+      "defaultValue": 1,
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "hotkeyUp": "NUMPAD 1",
+      "hotkeyDown": "Ctrl+NUMPAD 1",
+      "category": "Movimentação",
+      "description": "Multiplica a altura do pulo da personagem (1x padrão até 10x)."
     }
   ],
   "ea_offer_id": null,
@@ -58,5 +32,7 @@
   "supported_platforms": [
     "steam",
     "epic"
-  ]
+  ],
+  "metadata_version": 3,
+  "updated_at": "2026-11-12T11:45:00.000Z"
 }
