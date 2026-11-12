@@ -25,6 +25,15 @@
       "hotkeyDown": "Ctrl+NUMPAD 1",
       "category": "Movimentação",
       "description": "Multiplica a altura do pulo da personagem (1x padrão até 10x)."
+    },
+    {
+      "id": "no_overheat",
+      "name": "Sem Superaquecimento de Arma (No Weapon Overheat)",
+      "hotkey": "NUMPAD 2",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Armas",
+      "description": "Impede o superaquecimento do blaster ao disparar continuamente."
     }
   ],
   "ea_offer_id": null,
@@ -33,6 +42,6 @@
     "steam",
     "epic"
   ],
-  "metadata_version": 3,
-  "updated_at": "2026-11-12T11:45:00.000Z"
+  "metadata_version": 4,
+  "updated_at": "2026-11-12T22:25:00.000Z"
 }
