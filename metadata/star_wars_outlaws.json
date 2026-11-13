@@ -34,6 +34,15 @@
       "enabled": false,
       "category": "Armas",
       "description": "Impede o superaquecimento do blaster ao disparar continuamente."
+    },
+    {
+      "id": "infinite_health",
+      "name": "Vida Infinita (Infinite Health)",
+      "hotkey": "NUMPAD 3",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Combate",
+      "description": "Mantém a vida da personagem sempre no máximo e previne morte por dano."
     }
   ],
   "ea_offer_id": null,
@@ -42,6 +51,6 @@
     "steam",
     "epic"
   ],
-  "metadata_version": 4,
-  "updated_at": "2026-11-12T22:25:00.000Z"
+  "metadata_version": 5,
+  "updated_at": "2026-11-12T22:45:00.000Z"
 }
