@@ -59,8 +59,8 @@
     "id": "star_wars_outlaws",
     "title": "Star Wars Outlaws",
     "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/star_wars_outlaws.json",
-    "metadata_version": 3,
-    "updated_at": "2026-11-12T11:45:00.000Z"
+    "metadata_version": 5,
+    "updated_at": "2026-11-12T22:45:00.000Z"
   },
   {
     "id": "stalker_2",
@@ -159,5 +159,12 @@
     "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/gears_of_war_eday.json",
     "metadata_version": 1,
     "updated_at": "2026-11-11T11:45:00.000Z"
+  },
+  {
+    "id": "star_wars_galactic_racer",
+    "title": "STAR WARS: Galactic Racer",
+    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/star_wars_galactic_racer.json",
+    "metadata_version": 1,
+    "updated_at": "2026-11-17T09:30:00.000Z"
   }
 ]
