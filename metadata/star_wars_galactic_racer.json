@@ -1,0 +1,33 @@
+{
+  "id": "star_wars_galactic_racer",
+  "title": "STAR WARS: Galactic Racer",
+  "steam_appid": 4078430,
+  "process_name": "SWGR-Win64-Shipping.exe",
+  "version": "1.0.0",
+  "cover_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4078430/3c44afd74567d593c23049525c1b0376ae80e287/capsule_616x353.jpg",
+  "poster_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4078430/3c44afd74567d593c23049525c1b0376ae80e287/capsule_616x353.jpg",
+  "banner_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4078430/97215eb609882139ce6a28419116be23fcf5ac86/header.jpg",
+  "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
+  "dll_asset_name": "STARWARSGalacticRacerMod.dll",
+  "sha256": "bypass",
+  "pipe_name": "\\\\.\\pipe\\STARWARSGalacticRacer_Trainer",
+  "cheats": [
+    {
+      "id": "infinite_vehicle_health",
+      "name": "Vida Infinita do Veículo (Infinite Vehicle Health)",
+      "hotkey": "NUMPAD 1",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Veículo",
+      "description": "Mantém a integridade/vida do repulsorcraft no valor máximo (4) e impede destruição por colisão ou dano."
+    }
+  ],
+  "ea_offer_id": null,
+  "epic_app_name": null,
+  "supported_platforms": [
+    "steam",
+    "epic"
+  ],
+  "metadata_version": 1,
+  "updated_at": "2026-11-17T09:30:00.000Z"
+}
