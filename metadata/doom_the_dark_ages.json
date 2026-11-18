@@ -20,6 +20,15 @@
       "enabled": false,
       "category": "Armas",
       "description": "Mantém a munição de todas as armas sempre no valor máximo (1000) e impede o gasto ao atirar."
+    },
+    {
+      "id": "infinite_shield",
+      "name": "Energia do Escudo Infinita (Infinite Shield Energy)",
+      "hotkey": "NUMPAD 2",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Defesa",
+      "description": "Mantém a energia do escudo sempre em 999.0, permitindo bloqueios e ataques contínuos sem esgotar a carga."
     }
   ],
   "ea_offer_id": null,
@@ -28,6 +37,6 @@
     "steam",
     "xbox"
   ],
-  "metadata_version": 1,
-  "updated_at": "2026-11-18T18:15:00.000Z"
+  "metadata_version": 2,
+  "updated_at": "2026-11-18T18:50:00.000Z"
 }
