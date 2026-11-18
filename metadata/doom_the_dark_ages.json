@@ -1,0 +1,33 @@
+{
+  "id": "doom_the_dark_ages",
+  "title": "DOOM: The Dark Ages",
+  "steam_appid": 3017860,
+  "process_name": "DOOMTheDarkAges.exe",
+  "version": "1.0.0",
+  "cover_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3017860/library_600x900_2x.jpg",
+  "poster_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3017860/library_600x900_2x.jpg",
+  "banner_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3017860/header.jpg",
+  "dll_url": "https://api.github.com/repos/Neorosee/Neo-Trainers-DLLS/releases/tags/V1.0.0",
+  "dll_asset_name": "DOOMTheDarkAgesMod.dll",
+  "sha256": "bypass",
+  "pipe_name": "\\\\.\\pipe\\DOOMTheDarkAges_Trainer",
+  "cheats": [
+    {
+      "id": "infinite_ammo",
+      "name": "Munição Infinita (Infinite Ammo)",
+      "hotkey": "NUMPAD 1",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Armas",
+      "description": "Mantém a munição de todas as armas sempre no valor máximo (1000) e impede o gasto ao atirar."
+    }
+  ],
+  "ea_offer_id": null,
+  "epic_app_name": null,
+  "supported_platforms": [
+    "steam",
+    "xbox"
+  ],
+  "metadata_version": 1,
+  "updated_at": "2026-11-18T18:15:00.000Z"
+}
