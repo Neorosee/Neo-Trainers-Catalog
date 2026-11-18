@@ -166,5 +166,12 @@
     "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/star_wars_galactic_racer.json",
     "metadata_version": 1,
     "updated_at": "2026-11-17T09:30:00.000Z"
+  },
+  {
+    "id": "doom_the_dark_ages",
+    "title": "DOOM: The Dark Ages",
+    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/doom_the_dark_ages.json",
+    "metadata_version": 1,
+    "updated_at": "2026-11-18T18:15:00.000Z"
   }
 ]
