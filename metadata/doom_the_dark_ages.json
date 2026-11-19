@@ -14,22 +14,22 @@
   "cheats": [
      {
       "id": "infinite_health",
-      "name": "Vida Infinita (Infinite Health)",
+      "name": "Vida Infinita",
       "hotkey": "NUMPAD 3",
       "type": "toggle",
       "enabled": false,
       "category": "Jogador",
-      "description": "Mantém a vida do Slayer sempre em 999.0 (offset 3C) e impede morte por dano."
+      "description": ""
     },
     
        {
       "id": "infinite_armor",
-      "name": "Armadura Infinita (Infinite Armor)",
+      "name": "Armadura Infinita",
       "hotkey": "NUMPAD 4",
       "type": "toggle",
       "enabled": false,
       "category": "Jogador",
-      "description": "Mantém a armadura do Slayer sempre em 999.0 (offset E4), absorvendo o impacto dos ataques sem quebrar."
+      "description": ""
     },
     
     
