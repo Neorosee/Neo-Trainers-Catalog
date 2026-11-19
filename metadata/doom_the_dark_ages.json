@@ -54,12 +54,12 @@
  
     {
       "id": "one_hit_kill",
-      "name": "Matar com Um Golpe (One-Hit Kill)",
+      "name": "Matar com Um Golpe",
       "hotkey": "NUMPAD 5",
       "type": "toggle",
       "enabled": false,
       "category": "Inimigos",
-      "description": "Reduz a vida e armadura dos inimigos para 1.0, permitindo eliminá-los instantaneamente com qualquer ataque."
+      "description": "Alguns inimigos têm escudo ou armadura, você precisará quebrar o escudo e a armadura deles antes de poder matá-los. Alguns inimigos especiais (por exemplo, o chefe do capítulo 1) não podem ser mortos rápido demais, caso contrário pode não ser possível acionar eventos para continuar. Se você encontrar esse problema, por favor, carregue o último checkpoint."
     }
   ],
   "ea_offer_id": null,
