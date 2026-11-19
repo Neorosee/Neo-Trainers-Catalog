@@ -35,21 +35,21 @@
     
     {
       "id": "infinite_shield",
-      "name": "Energia do Escudo Infinita (Infinite Shield Energy)",
+      "name": "Energia do Escudo Infinita",
       "hotkey": "NUMPAD 2",
       "type": "toggle",
       "enabled": false,
       "category": "Jogador",
-      "description": "Mantém a energia do escudo sempre em 999.0, permitindo bloqueios e ataques contínuos sem esgotar a carga."
+      "description": ""
     },
    {
       "id": "infinite_ammo",
-      "name": "Munição Infinita (Infinite Ammo)",
+      "name": "Munição Infinita",
       "hotkey": "NUMPAD 1",
       "type": "toggle",
       "enabled": false,
       "category": "Armas",
-      "description": "Mantém a munição de todas as armas sempre no valor máximo (1000) e impede o gasto ao atirar."
+      "description": ""
     },
  
     {
