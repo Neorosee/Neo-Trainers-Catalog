@@ -39,7 +39,7 @@
       "hotkey": "NUMPAD 2",
       "type": "toggle",
       "enabled": false,
-      "category": "Defesa",
+      "category": "Jogador",
       "description": "Mantém a energia do escudo sempre em 999.0, permitindo bloqueios e ataques contínuos sem esgotar a carga."
     },
    {
@@ -58,7 +58,7 @@
       "hotkey": "NUMPAD 5",
       "type": "toggle",
       "enabled": false,
-      "category": "Combate",
+      "category": "Inimigos",
       "description": "Reduz a vida e armadura dos inimigos para 1.0, permitindo eliminá-los instantaneamente com qualquer ataque."
     }
   ],
