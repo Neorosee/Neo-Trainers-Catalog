@@ -29,6 +29,33 @@
       "enabled": false,
       "category": "Defesa",
       "description": "Mantém a energia do escudo sempre em 999.0, permitindo bloqueios e ataques contínuos sem esgotar a carga."
+    },
+    {
+      "id": "infinite_health",
+      "name": "Vida Infinita (Infinite Health)",
+      "hotkey": "NUMPAD 3",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Jogador",
+      "description": "Mantém a vida do Slayer sempre em 999.0 (offset 3C) e impede morte por dano."
+    },
+    {
+      "id": "infinite_armor",
+      "name": "Armadura Infinita (Infinite Armor)",
+      "hotkey": "NUMPAD 4",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Jogador",
+      "description": "Mantém a armadura do Slayer sempre em 999.0 (offset E4), absorvendo o impacto dos ataques sem quebrar."
+    },
+    {
+      "id": "one_hit_kill",
+      "name": "Matar com Um Golpe (One-Hit Kill)",
+      "hotkey": "NUMPAD 5",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Combate",
+      "description": "Reduz a vida e armadura dos inimigos para 1.0, permitindo eliminá-los instantaneamente com qualquer ataque."
     }
   ],
   "ea_offer_id": null,
@@ -37,6 +64,6 @@
     "steam",
     "xbox"
   ],
-  "metadata_version": 2,
-  "updated_at": "2026-11-18T18:50:00.000Z"
+  "metadata_version": 3,
+  "updated_at": "2026-11-18T23:50:00.000Z"
 }
