@@ -171,7 +171,14 @@
     "id": "doom_the_dark_ages",
     "title": "DOOM: The Dark Ages",
     "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/doom_the_dark_ages.json",
+    "metadata_version": 4,
+    "updated_at": "2026-11-19T07:45:00.000Z"
+  },
+  {
+    "id": "hot_wheels_unleashed",
+    "title": "HOT WHEELS UNLEASHED™",
+    "config_url": "https://raw.githubusercontent.com/Neorosee/Neo-Trainers-Catalog/main/metadata/hot_wheels_unleashed.json",
     "metadata_version": 1,
-    "updated_at": "2026-11-18T18:15:00.000Z"
+    "updated_at": "2026-11-25T21:30:00.000Z"
   }
 ]
