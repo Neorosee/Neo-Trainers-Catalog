@@ -38,6 +38,15 @@
       "enabled": false,
       "category": "Oponentes",
       "description": "Zera instantaneamente e impede que os carros oponentes (IA) acumulem ou usem qualquer impulso/turbo."
+    },
+    {
+      "id": "slow_opponents",
+      "name": "Reduzir a Velocidade dos Oponentes (Slow Down Opponents)",
+      "hotkey": "NUMPAD 4",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Oponentes",
+      "description": "Reduz a velocidade e aceleração de todos os carros oponentes (IA) a zero, facilitando ultrapassagens e vitórias garantidas."
     }
   ],
   "ea_offer_id": null,
@@ -47,6 +56,6 @@
     "epic",
     "xbox"
   ],
-  "metadata_version": 2,
-  "updated_at": "2026-11-25T22:30:00.000Z"
+  "metadata_version": 3,
+  "updated_at": "2026-11-25T23:45:00.000Z"
 }
