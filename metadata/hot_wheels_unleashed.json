@@ -13,13 +13,31 @@
   "pipe_name": "\\\\.\\pipe\\HotWheelsUnleashed_Trainer",
   "cheats": [
     {
+      "id": "infinite_boost",
+      "name": "Impulso Ilimitado (Infinite Boost)",
+      "hotkey": "NUMPAD 1",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Veículo",
+      "description": "Mantém a barra de impulso (turbo/boost) do jogador sempre no valor máximo, permitindo aceleração contínua sem esgotar."
+    },
+    {
       "id": "freeze_timer",
       "name": "Congelar Tempo da Corrida (Freeze Race Timer)",
-      "hotkey": "NUMPAD 1",
+      "hotkey": "NUMPAD 2",
       "type": "toggle",
       "enabled": false,
       "category": "Corrida",
       "description": "Congela e redefine o cronômetro da corrida em 0.001s, garantindo tempo perfeito em eventos de contra o relógio e corridas."
+    },
+    {
+      "id": "empty_opponents_boost",
+      "name": "Esvaziar Impulso dos Oponentes (Empty Opponents Boost)",
+      "hotkey": "NUMPAD 3",
+      "type": "toggle",
+      "enabled": false,
+      "category": "Oponentes",
+      "description": "Zera instantaneamente e impede que os carros oponentes (IA) acumulem ou usem qualquer impulso/turbo."
     }
   ],
   "ea_offer_id": null,
@@ -29,6 +47,6 @@
     "epic",
     "xbox"
   ],
-  "metadata_version": 1,
-  "updated_at": "2026-11-25T21:30:00.000Z"
+  "metadata_version": 2,
+  "updated_at": "2026-11-25T22:30:00.000Z"
 }
